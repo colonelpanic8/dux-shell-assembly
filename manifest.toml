@@ -39,6 +39,9 @@ summary = "Show minimized windows in one M bucket per monitor; hide scratchpad w
 branch = "mine:tray-priority-policy"
 summary = "Order tray icons by the shared taffybar sni-priorities.yaml, with priority controls; never hide items"
 
+[[entry]]
+branch = "mine:tray-click-actions"
+
 # Entries merge in order onto the base. Three kinds:
 #
 # [[entry]]

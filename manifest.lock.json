@@ -4,6 +4,7 @@
     "base": "c5cb0bebd97dc898207bb91a91fd02d014537f12",
     "entries": {
       "hyprland-minimized-bucket": "8aa54e1e6e32d0167314a8af0d172773596856eb",
+      "tray-click-actions": "cbe85a6037c5cbe982a558c09d9ddba45576e255",
       "tray-outline-low-contrast-icons": "f16a9b85cefa92e9b0299440c6bcadc0ef567bb2",
       "tray-priority-policy": "63f890ce6f931be1d57c147b162672bb6f07191c",
       "tray-retain-icon-while-loading": "f159ac44155645539d8040e8ae1cbe789d44476e",
@@ -11,13 +12,13 @@
     }
   },
   "build": {
-    "generated": "2026-11-01T01:51:54.175619276+00:00",
+    "generated": "2026-11-01T07:36:31.264189855+00:00",
     "base": "c5cb0bebd97dc898207bb91a91fd02d014537f12",
-    "commit": "497c45c443d1aa093bdb3bbb43f9529e94f21fc5",
-    "pre_provenance_commit": "497c45c443d1aa093bdb3bbb43f9529e94f21fc5",
-    "tree": "8480e9ce3ee65f39b44423b8e3b04f98e7542f07",
-    "built_tree": "8480e9ce3ee65f39b44423b8e3b04f98e7542f07",
-    "previous_tree": null,
+    "commit": "45e9fd20855655228833cd13194b4c41e47b092c",
+    "pre_provenance_commit": "45e9fd20855655228833cd13194b4c41e47b092c",
+    "tree": "4780ae3c6dd434d8c34a10dc8bc65330c39a977b",
+    "built_tree": "4780ae3c6dd434d8c34a10dc8bc65330c39a977b",
+    "previous_tree": "8480e9ce3ee65f39b44423b8e3b04f98e7542f07",
     "tree_changed": true,
     "conflicts": 1,
     "manifest_entries": [
@@ -50,6 +51,12 @@
         "kind": "branch",
         "source": "mine:tray-priority-policy",
         "pin": "63f890ce6f931be1d57c147b162672bb6f07191c"
+      },
+      {
+        "name": "tray-click-actions",
+        "kind": "branch",
+        "source": "mine:tray-click-actions",
+        "pin": "cbe85a6037c5cbe982a558c09d9ddba45576e255"
       }
     ],
     "results": [
@@ -89,6 +96,15 @@
         "status": "merged",
         "conflicted": false,
         "resolutions": []
+      },
+      {
+        "name": "tray-click-actions",
+        "oid": "cbe85a6037c5cbe982a558c09d9ddba45576e255",
+        "status": "merged",
+        "conflicted": true,
+        "resolutions": [
+          "7e5fda3492d6af6d4e628173b8e33469c389331d"
+        ]
       }
     ]
   }
