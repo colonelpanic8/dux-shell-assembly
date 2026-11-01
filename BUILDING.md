@@ -11,8 +11,8 @@ and invariants.
 | --- | --- |
 | Topic development checkout | `~/projects/dux-shell` (`origin` = upstream, `fork` = colonelpanic8/dux-shell) |
 | Published artifact | `colonelpanic8/dux-shell` branch `assembled`, tags `dux-shell-assembled-*` |
-| Flake input | `dank-material-shell` in `/srv/dotfiles/nixos/flake.nix` |
-| NixOS module | `/srv/dotfiles/nixos/dank-material-shell.nix` |
+| Flake input | `dux-shell` in `/srv/dotfiles/nixos/flake.nix` |
+| NixOS module | `/srv/dotfiles/nixos/dux-shell.nix` |
 
 The fork's old `dotfiles` branch is retired; do not commit to it.
 
@@ -34,7 +34,7 @@ Release eagerly; validate afterwards and fix forward.
 4. Commit `manifest.toml`, `manifest.lock.json`, `resolutions/`, and
    `patches/` with explicit paths, and push.
 5. `just publish` pushes the build worktree to `assembled` and tags it.
-6. In `/srv/dotfiles/nixos`: `nix flake update dank-material-shell`, then
+6. In `/srv/dotfiles/nixos`: `nix flake update dux-shell`, then
    `just switch`.
 7. Validate: `nix build .#checks.x86_64-linux.dms-workspaces --no-link` from
    `/srv/dotfiles/nixos`, and `systemctl --user restart dms.service` if the
