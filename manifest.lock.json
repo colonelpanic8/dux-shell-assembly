@@ -5,7 +5,7 @@
     "entries": {
       "bar-size-units": "a0e9a0310664b81c321d7891386a4c87c755805d",
       "hyprland-minimized-bucket": "8aa54e1e6e32d0167314a8af0d172773596856eb",
-      "tray-click-actions": "cbe85a6037c5cbe982a558c09d9ddba45576e255",
+      "tray-click-actions": "251884becde7015f20c2f43c328532f013b2a179",
       "tray-outline-low-contrast-icons": "f16a9b85cefa92e9b0299440c6bcadc0ef567bb2",
       "tray-priority-policy": "63f890ce6f931be1d57c147b162672bb6f07191c",
       "tray-retain-icon-while-loading": "f159ac44155645539d8040e8ae1cbe789d44476e",
@@ -13,13 +13,13 @@
     }
   },
   "build": {
-    "generated": "2026-11-01T07:47:07.215486397+00:00",
+    "generated": "2026-11-01T07:51:45.278701642+00:00",
     "base": "0bb9f65ce8400aa8dd5ffe496311aabc00127019",
-    "commit": "9bf95d349b97d96f8872e5e794f0f9e22ecde250",
-    "pre_provenance_commit": "9bf95d349b97d96f8872e5e794f0f9e22ecde250",
-    "tree": "fc7dce5e3c6605e5af9439eb29d891def49e4b6c",
-    "built_tree": "fc7dce5e3c6605e5af9439eb29d891def49e4b6c",
-    "previous_tree": "4780ae3c6dd434d8c34a10dc8bc65330c39a977b",
+    "commit": "ea17c9104dab203bdcfa05783ede2964b5ab9497",
+    "pre_provenance_commit": "ea17c9104dab203bdcfa05783ede2964b5ab9497",
+    "tree": "f1f88a87bc9008694402a1cbc2653731be2b26d5",
+    "built_tree": "f1f88a87bc9008694402a1cbc2653731be2b26d5",
+    "previous_tree": "fc7dce5e3c6605e5af9439eb29d891def49e4b6c",
     "tree_changed": true,
     "conflicts": 2,
     "manifest_entries": [
@@ -57,7 +57,7 @@
         "name": "tray-click-actions",
         "kind": "branch",
         "source": "mine:tray-click-actions",
-        "pin": "cbe85a6037c5cbe982a558c09d9ddba45576e255"
+        "pin": "251884becde7015f20c2f43c328532f013b2a179"
       },
       {
         "name": "bar-size-units",
@@ -106,7 +106,7 @@
       },
       {
         "name": "tray-click-actions",
-        "oid": "cbe85a6037c5cbe982a558c09d9ddba45576e255",
+        "oid": "251884becde7015f20c2f43c328532f013b2a179",
         "status": "merged",
         "conflicted": true,
         "resolutions": [
