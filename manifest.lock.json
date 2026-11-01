@@ -3,7 +3,9 @@
   "pins": {
     "base": "48e99f658e9ef986ffbd8f469d6a24e6f74be198",
     "entries": {
+      "bar-network-ssid": "eae56a884ad98296f1d89be57d4d7a7859ed35b5",
       "bar-size-units": "a0e9a0310664b81c321d7891386a4c87c755805d",
+      "disk-usage-percent-free": "9bb32173e6e8afb7e3fa8b73c4d96afa5fe127c6",
       "hyprland-minimized-bucket": "8aa54e1e6e32d0167314a8af0d172773596856eb",
       "overflow-priority": "676f598b59b371f9e642e69bb89914f1d75a8ce5",
       "tray-click-actions": "251884becde7015f20c2f43c328532f013b2a179",
@@ -15,15 +17,15 @@
     }
   },
   "build": {
-    "generated": "2026-11-01T08:38:23.249828386+00:00",
+    "generated": "2026-11-01T22:26:03.066439479+00:00",
     "base": "48e99f658e9ef986ffbd8f469d6a24e6f74be198",
-    "commit": "f6c1161cbf85e7b2d131787b081e1d876ae1b11b",
-    "pre_provenance_commit": "f6c1161cbf85e7b2d131787b081e1d876ae1b11b",
-    "tree": "2f7ef19acee20f0bd922b6c8d510d3c4def919d1",
-    "built_tree": "2f7ef19acee20f0bd922b6c8d510d3c4def919d1",
-    "previous_tree": "eddf1721554fb1cf1ab865f8c20cea3240dadf69",
+    "commit": "dbea6402770ce90bce03b17f9f2ed363f3b82ff2",
+    "pre_provenance_commit": "dbea6402770ce90bce03b17f9f2ed363f3b82ff2",
+    "tree": "80d05f042d44ade690ca46f013ba12b84bca4b73",
+    "built_tree": "80d05f042d44ade690ca46f013ba12b84bca4b73",
+    "previous_tree": "2f7ef19acee20f0bd922b6c8d510d3c4def919d1",
     "tree_changed": true,
-    "conflicts": 3,
+    "conflicts": 0,
     "manifest_entries": [
       {
         "name": "tray-retain-icon-while-loading",
@@ -79,6 +81,18 @@
         "source": "mine:tray-priority-settings",
         "pin": "051001166ff6fb289a2b8a82bb9a0b784e41a1ef",
         "fixup": "0b365c6bee374f9d8c994d9649653d6f71244e7d"
+      },
+      {
+        "name": "bar-network-ssid",
+        "kind": "branch",
+        "source": "mine:bar-network-ssid",
+        "pin": "eae56a884ad98296f1d89be57d4d7a7859ed35b5"
+      },
+      {
+        "name": "disk-usage-percent-free",
+        "kind": "branch",
+        "source": "mine:disk-usage-percent-free",
+        "pin": "9bb32173e6e8afb7e3fa8b73c4d96afa5fe127c6"
       }
     ],
     "results": [
@@ -151,6 +165,20 @@
           "54e30f9af003e3229d8967d701a3644353745427"
         ],
         "fixup": "0b365c6bee374f9d8c994d9649653d6f71244e7d"
+      },
+      {
+        "name": "bar-network-ssid",
+        "oid": "eae56a884ad98296f1d89be57d4d7a7859ed35b5",
+        "status": "merged",
+        "conflicted": false,
+        "resolutions": []
+      },
+      {
+        "name": "disk-usage-percent-free",
+        "oid": "9bb32173e6e8afb7e3fa8b73c4d96afa5fe127c6",
+        "status": "merged",
+        "conflicted": false,
+        "resolutions": []
       }
     ]
   }

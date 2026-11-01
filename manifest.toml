@@ -53,6 +53,14 @@ summary = "Per-widget overflow priority: lower-priority auto widgets overflow fi
 branch = "mine:tray-priority-settings"
 fixup = "patches/tray-priority-settings-search-index.patch"
 
+[[entry]]
+branch = "mine:bar-network-ssid"
+summary = "Optional Wi-Fi network name next to the control center network icon"
+
+[[entry]]
+branch = "mine:disk-usage-percent-free"
+summary = "Disk usage format showing percentage and remaining space"
+
 # Entries merge in order onto the base. Three kinds:
 #
 # [[entry]]
