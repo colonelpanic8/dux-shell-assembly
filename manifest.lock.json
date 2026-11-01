@@ -5,7 +5,7 @@
     "entries": {
       "bar-size-units": "a0e9a0310664b81c321d7891386a4c87c755805d",
       "hyprland-minimized-bucket": "8aa54e1e6e32d0167314a8af0d172773596856eb",
-      "overflow-priority": "9168388015111993eca4d611e7ff51dd64d7f406",
+      "overflow-priority": "676f598b59b371f9e642e69bb89914f1d75a8ce5",
       "tray-click-actions": "251884becde7015f20c2f43c328532f013b2a179",
       "tray-outline-low-contrast-icons": "f16a9b85cefa92e9b0299440c6bcadc0ef567bb2",
       "tray-priority-policy": "63f890ce6f931be1d57c147b162672bb6f07191c",
@@ -14,13 +14,13 @@
     }
   },
   "build": {
-    "generated": "2026-11-01T08:12:46.217395804+00:00",
+    "generated": "2026-11-01T08:23:57.069223134+00:00",
     "base": "48e99f658e9ef986ffbd8f469d6a24e6f74be198",
-    "commit": "af5ebbaffcac6447aa0588468f1595dddc19c7f6",
-    "pre_provenance_commit": "af5ebbaffcac6447aa0588468f1595dddc19c7f6",
-    "tree": "db650a762c902c1859cf910539e1b40d3619df2d",
-    "built_tree": "db650a762c902c1859cf910539e1b40d3619df2d",
-    "previous_tree": "f1f88a87bc9008694402a1cbc2653731be2b26d5",
+    "commit": "e862900d6e9cb9edac86ea3f0b375c2bbca6bfae",
+    "pre_provenance_commit": "e862900d6e9cb9edac86ea3f0b375c2bbca6bfae",
+    "tree": "1de9f0f51b64cc90e268dbadce875b581e7a2e89",
+    "built_tree": "1de9f0f51b64cc90e268dbadce875b581e7a2e89",
+    "previous_tree": "db650a762c902c1859cf910539e1b40d3619df2d",
     "tree_changed": true,
     "conflicts": 2,
     "manifest_entries": [
@@ -70,7 +70,7 @@
         "name": "overflow-priority",
         "kind": "branch",
         "source": "mine:overflow-priority",
-        "pin": "9168388015111993eca4d611e7ff51dd64d7f406"
+        "pin": "676f598b59b371f9e642e69bb89914f1d75a8ce5"
       }
     ],
     "results": [
@@ -129,7 +129,7 @@
       },
       {
         "name": "overflow-priority",
-        "oid": "9168388015111993eca4d611e7ff51dd64d7f406",
+        "oid": "676f598b59b371f9e642e69bb89914f1d75a8ce5",
         "status": "merged",
         "conflicted": false,
         "resolutions": []
