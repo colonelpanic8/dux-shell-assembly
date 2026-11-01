@@ -42,6 +42,9 @@ summary = "Order tray icons by the shared taffybar sni-priorities.yaml, with pri
 [[entry]]
 branch = "mine:tray-click-actions"
 
+[[entry]]
+branch = "mine:bar-size-units"
+
 # Entries merge in order onto the base. Three kinds:
 #
 # [[entry]]

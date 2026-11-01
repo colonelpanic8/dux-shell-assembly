@@ -1,8 +1,9 @@
 {
   "version": 1,
   "pins": {
-    "base": "c5cb0bebd97dc898207bb91a91fd02d014537f12",
+    "base": "0bb9f65ce8400aa8dd5ffe496311aabc00127019",
     "entries": {
+      "bar-size-units": "a0e9a0310664b81c321d7891386a4c87c755805d",
       "hyprland-minimized-bucket": "8aa54e1e6e32d0167314a8af0d172773596856eb",
       "tray-click-actions": "cbe85a6037c5cbe982a558c09d9ddba45576e255",
       "tray-outline-low-contrast-icons": "f16a9b85cefa92e9b0299440c6bcadc0ef567bb2",
@@ -12,15 +13,15 @@
     }
   },
   "build": {
-    "generated": "2026-11-01T07:36:31.264189855+00:00",
-    "base": "c5cb0bebd97dc898207bb91a91fd02d014537f12",
-    "commit": "45e9fd20855655228833cd13194b4c41e47b092c",
-    "pre_provenance_commit": "45e9fd20855655228833cd13194b4c41e47b092c",
-    "tree": "4780ae3c6dd434d8c34a10dc8bc65330c39a977b",
-    "built_tree": "4780ae3c6dd434d8c34a10dc8bc65330c39a977b",
-    "previous_tree": "8480e9ce3ee65f39b44423b8e3b04f98e7542f07",
+    "generated": "2026-11-01T07:47:07.215486397+00:00",
+    "base": "0bb9f65ce8400aa8dd5ffe496311aabc00127019",
+    "commit": "9bf95d349b97d96f8872e5e794f0f9e22ecde250",
+    "pre_provenance_commit": "9bf95d349b97d96f8872e5e794f0f9e22ecde250",
+    "tree": "fc7dce5e3c6605e5af9439eb29d891def49e4b6c",
+    "built_tree": "fc7dce5e3c6605e5af9439eb29d891def49e4b6c",
+    "previous_tree": "4780ae3c6dd434d8c34a10dc8bc65330c39a977b",
     "tree_changed": true,
-    "conflicts": 1,
+    "conflicts": 2,
     "manifest_entries": [
       {
         "name": "tray-retain-icon-while-loading",
@@ -57,6 +58,12 @@
         "kind": "branch",
         "source": "mine:tray-click-actions",
         "pin": "cbe85a6037c5cbe982a558c09d9ddba45576e255"
+      },
+      {
+        "name": "bar-size-units",
+        "kind": "branch",
+        "source": "mine:bar-size-units",
+        "pin": "a0e9a0310664b81c321d7891386a4c87c755805d"
       }
     ],
     "results": [
@@ -105,6 +112,13 @@
         "resolutions": [
           "7e5fda3492d6af6d4e628173b8e33469c389331d"
         ]
+      },
+      {
+        "name": "bar-size-units",
+        "oid": "a0e9a0310664b81c321d7891386a4c87c755805d",
+        "status": "merged",
+        "conflicted": false,
+        "resolutions": []
       }
     ]
   }
