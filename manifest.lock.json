@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "pins": {
+    "base": "c5cb0bebd97dc898207bb91a91fd02d014537f12",
+    "entries": {
+      "hyprland-minimized-bucket": "8aa54e1e6e32d0167314a8af0d172773596856eb",
+      "tray-outline-low-contrast-icons": "f16a9b85cefa92e9b0299440c6bcadc0ef567bb2",
+      "tray-priority-policy": "63f890ce6f931be1d57c147b162672bb6f07191c",
+      "tray-retain-icon-while-loading": "f159ac44155645539d8040e8ae1cbe789d44476e",
+      "workspaces-active-app-padding": "f57eb84eb1acbeeb3a1e7f1bc65a06e06a850263"
+    }
+  },
+  "build": {
+    "generated": "2026-11-01T01:51:54.175619276+00:00",
+    "base": "c5cb0bebd97dc898207bb91a91fd02d014537f12",
+    "commit": "497c45c443d1aa093bdb3bbb43f9529e94f21fc5",
+    "pre_provenance_commit": "497c45c443d1aa093bdb3bbb43f9529e94f21fc5",
+    "tree": "8480e9ce3ee65f39b44423b8e3b04f98e7542f07",
+    "built_tree": "8480e9ce3ee65f39b44423b8e3b04f98e7542f07",
+    "previous_tree": null,
+    "tree_changed": true,
+    "conflicts": 1,
+    "manifest_entries": [
+      {
+        "name": "tray-retain-icon-while-loading",
+        "kind": "branch",
+        "source": "mine:tray-retain-icon-while-loading",
+        "pin": "f159ac44155645539d8040e8ae1cbe789d44476e"
+      },
+      {
+        "name": "tray-outline-low-contrast-icons",
+        "kind": "branch",
+        "source": "mine:tray-outline-low-contrast-icons",
+        "pin": "f16a9b85cefa92e9b0299440c6bcadc0ef567bb2"
+      },
+      {
+        "name": "workspaces-active-app-padding",
+        "kind": "branch",
+        "source": "mine:workspaces-active-app-padding",
+        "pin": "f57eb84eb1acbeeb3a1e7f1bc65a06e06a850263"
+      },
+      {
+        "name": "hyprland-minimized-bucket",
+        "kind": "branch",
+        "source": "mine:hyprland-minimized-bucket",
+        "pin": "8aa54e1e6e32d0167314a8af0d172773596856eb"
+      },
+      {
+        "name": "tray-priority-policy",
+        "kind": "branch",
+        "source": "mine:tray-priority-policy",
+        "pin": "63f890ce6f931be1d57c147b162672bb6f07191c"
+      }
+    ],
+    "results": [
+      {
+        "name": "tray-retain-icon-while-loading",
+        "oid": "f159ac44155645539d8040e8ae1cbe789d44476e",
+        "status": "merged",
+        "conflicted": false,
+        "resolutions": []
+      },
+      {
+        "name": "tray-outline-low-contrast-icons",
+        "oid": "f16a9b85cefa92e9b0299440c6bcadc0ef567bb2",
+        "status": "merged",
+        "conflicted": true,
+        "resolutions": [
+          "8cfc9ad40233cefd39f26ea5c52b567533aef9b7"
+        ]
+      },
+      {
+        "name": "workspaces-active-app-padding",
+        "oid": "f57eb84eb1acbeeb3a1e7f1bc65a06e06a850263",
+        "status": "merged",
+        "conflicted": false,
+        "resolutions": []
+      },
+      {
+        "name": "hyprland-minimized-bucket",
+        "oid": "8aa54e1e6e32d0167314a8af0d172773596856eb",
+        "status": "merged",
+        "conflicted": false,
+        "resolutions": []
+      },
+      {
+        "name": "tray-priority-policy",
+        "oid": "63f890ce6f931be1d57c147b162672bb6f07191c",
+        "status": "merged",
+        "conflicted": false,
+        "resolutions": []
+      }
+    ]
+  }
+}

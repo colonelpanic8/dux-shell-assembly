@@ -1,0 +1,121 @@
+# fork-assembler maintenance repository
+
+This repository is a [fork-assembler](https://github.com/colonelpanic8/fork-assembler)
+stack: a build recipe assembling an upstream base plus an ordered set of live
+topic branches into a single branch, with tracked conflict resolutions.
+
+## Model
+
+- `manifest.toml` is INTENT: named remotes, the base, and the ordered entries
+  (branches, PRs, patch files).
+- `manifest.lock.json` is FACT: the OIDs the last build used, the assembled
+  commit, and its tree hash. The tree hash is the reproducibility invariant;
+  commit IDs are not.
+- `resolutions/rerere/<hash>/{preimage,postimage}` are tracked git-rerere
+  pairs replaying each conflicted merge's hunks. Every build seeds the build
+  worktree's rr-cache exclusively from them (wiped first, so nothing ambient
+  leaks in) and auto-resolves recognized conflicts.
+  `resolutions/rerere/INDEX.toml` records which entry produced which pairs —
+  informational only, never load-bearing. Each lock result's `resolutions`
+  lists the pairs that entry's step used; `gc` removes the pairs none lists.
+- `patches/` holds two things. A **coherence fixup** (`fixup = "..."` on a
+  branch or pr entry) is applied inside THAT entry's own step, right after
+  its merge: it repairs what admitting the entry alongside the earlier ones
+  broke — a cross-topic semantic clash, or an edit a resolution needs OUTSIDE
+  the conflict hunks (rerere pairs cannot capture those). A standalone
+  **patch entry** (`patch = "..."`) applies at its own position and is for
+  content belonging to no entry, such as site-local customization.
+
+## Invariants — do not violate
+
+- The assembled branch is compiled output. Never commit to it, never base
+  work on it, never merge it back into a topic branch.
+- Topic branches stay minimal diffs against upstream; they are still
+  candidates for upstream merge. Fix topic-specific problems on the topic
+  branch, not in a resolution or patch entry.
+- A topic that conflicts with the BASE is not an assembly conflict, and the
+  build refuses it rather than stopping for a resolution. Rebase or merge the
+  base into that topic, resolve it there, push it, then `update` and rebuild.
+  Never record a resolution or a fixup that stands in for that rebase.
+- Conflict knowledge lives only in the tracked pairs under
+  `resolutions/rerere/`. Builds enable rerere per-command and reseed its
+  cache from the tracked pairs every run; never enable rerere persistently
+  or let a machine-local cache feed a build.
+- Rerere pairs capture only conflicted-hunk resolutions. If a correct
+  resolution also needs edits outside the conflict hunks, put those edits in
+  the entry's coherence fixup — a rebuild will otherwise surface them as a
+  tree mismatch. The lock's tree hash is the sole verification invariant.
+- Every entry boundary should be a coherent tree. A cross-entry repair
+  belongs on the entry that made it necessary (its `fixup`), not in a patch
+  entry parked at the end of the stack.
+- A fixup repairs an interaction BETWEEN entries. When `remove` or `prune`
+  reports one as orphaned, decide explicitly whether to re-home it onto the
+  surviving entry or delete it — a topic landing upstream usually does not
+  dissolve the incoherence.
+- Appending entries is cheap (incremental build of the tail). Reordering or
+  removing entries, or editing a fixup, invalidates every later entry's
+  build — expect re-resolution from that point.
+
+## Operations
+
+```sh
+fork-assembler status                 # lock vs. manifest vs. live refs; flags merged entries
+fork-assembler add REMOTE:BRANCH      # append a topic branch entry
+fork-assembler add --pr N             # append a PR entry
+fork-assembler add --patch FILE       # append a standalone patch entry
+fork-assembler add --prs-from USER    # append USER's open PRs not already carried (idempotent)
+fork-assembler fixup ENTRY FILE       # attach a coherence fixup to ENTRY's own step
+fork-assembler fixup ENTRY FILE --capture   # ...writing FILE from the build worktree
+fork-assembler fixup ENTRY --remove   # detach it (the patch file stays on disk)
+fork-assembler build                  # assemble from lock pins; incremental for appends
+fork-assembler build --locked         # reproduce exactly; no network, no new pins
+fork-assembler update [ENTRY...]      # batch bump: repin base + entries to live heads
+fork-assembler prune [--dry-run]      # drop entries whose changes landed in the base
+fork-assembler gc [--dry-run]         # remove tracked pairs the last build did not use
+```
+
+`build` never moves existing pins; `update` is the only verb that does. The
+repair cycle after a bump is: `update`, then `build`, fixing each unrecognized
+conflict as the build stops. Recognized conflict hunks resolve automatically
+from the tracked pairs. When a PR merges upstream, `update` the base past the
+merge and `prune` the dead entry in the same cycle.
+
+When a build stops on a conflict:
+
+1. Resolve the conflicted files in the build worktree it reports (under
+   `.worktrees/`).
+2. Stage the resolutions with `git add`.
+3. Run `fork-assembler continue` — it harvests the conflict's preimage/postimage
+   pair into `resolutions/rerere/`, updates the informational index, and runs
+   that entry's fixup if it has one.
+4. Run `fork-assembler build --locked` after the repair completes to prove the
+   tracked pairs reproduce the lock's tree.
+5. Run `fork-assembler gc` to remove the pairs a changed conflict superseded.
+6. Commit the manifest, lock, and tracked pairs together.
+
+When a build stops on a fixup that no longer applies, the entry's merge is
+already committed and only the fixup is owed. Repair the worktree, then
+`fork-assembler fixup ENTRY FILE --capture` and rebuild, so the patch file matches
+what ships. `git add` plus `fork-assembler continue` commits the resolution once
+but leaves the patch stale, and the next rebuild stops in the same place.
+
+## Skills
+
+Reusable operation guides live under `.agents/skills/` in the open
+[Agent Skills](https://agentskills.io) format (`SKILL.md` with YAML
+frontmatter). `.claude/skills/` and `.codex/skills/` are symlinks into it so
+Claude Code and Codex discover the same skills; agents without a skills
+mechanism should read `.agents/skills/*/SKILL.md` directly.
+
+The checked-in skill is deliberately only a stable discovery stub. It tells
+the agent to load `lib.forkFoldAgentGuide`, which this repository's flake
+re-exports directly from its pinned `fork-assembler` input. The full instructions
+therefore change with `flake.lock`; do not copy their output into this
+repository.
+
+## Committing
+
+Commit `manifest.toml`, `manifest.lock.json`, `resolutions/`, and `patches/`
+changes together with explicit paths. Publish/install steps (pushing the
+assembled branch, tagging, downstream pinning) are site-specific — see this
+repository's justfile or README.
