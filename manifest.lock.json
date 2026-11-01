@@ -9,20 +9,21 @@
       "tray-click-actions": "251884becde7015f20c2f43c328532f013b2a179",
       "tray-outline-low-contrast-icons": "f16a9b85cefa92e9b0299440c6bcadc0ef567bb2",
       "tray-priority-policy": "63f890ce6f931be1d57c147b162672bb6f07191c",
+      "tray-priority-settings": "051001166ff6fb289a2b8a82bb9a0b784e41a1ef",
       "tray-retain-icon-while-loading": "f159ac44155645539d8040e8ae1cbe789d44476e",
       "workspaces-active-app-padding": "f57eb84eb1acbeeb3a1e7f1bc65a06e06a850263"
     }
   },
   "build": {
-    "generated": "2026-11-01T08:23:57.069223134+00:00",
+    "generated": "2026-11-01T08:38:23.249828386+00:00",
     "base": "48e99f658e9ef986ffbd8f469d6a24e6f74be198",
-    "commit": "e862900d6e9cb9edac86ea3f0b375c2bbca6bfae",
-    "pre_provenance_commit": "e862900d6e9cb9edac86ea3f0b375c2bbca6bfae",
-    "tree": "1de9f0f51b64cc90e268dbadce875b581e7a2e89",
-    "built_tree": "1de9f0f51b64cc90e268dbadce875b581e7a2e89",
-    "previous_tree": "db650a762c902c1859cf910539e1b40d3619df2d",
+    "commit": "f6c1161cbf85e7b2d131787b081e1d876ae1b11b",
+    "pre_provenance_commit": "f6c1161cbf85e7b2d131787b081e1d876ae1b11b",
+    "tree": "2f7ef19acee20f0bd922b6c8d510d3c4def919d1",
+    "built_tree": "2f7ef19acee20f0bd922b6c8d510d3c4def919d1",
+    "previous_tree": "eddf1721554fb1cf1ab865f8c20cea3240dadf69",
     "tree_changed": true,
-    "conflicts": 2,
+    "conflicts": 3,
     "manifest_entries": [
       {
         "name": "tray-retain-icon-while-loading",
@@ -71,6 +72,13 @@
         "kind": "branch",
         "source": "mine:overflow-priority",
         "pin": "676f598b59b371f9e642e69bb89914f1d75a8ce5"
+      },
+      {
+        "name": "tray-priority-settings",
+        "kind": "branch",
+        "source": "mine:tray-priority-settings",
+        "pin": "051001166ff6fb289a2b8a82bb9a0b784e41a1ef",
+        "fixup": "0b365c6bee374f9d8c994d9649653d6f71244e7d"
       }
     ],
     "results": [
@@ -133,6 +141,16 @@
         "status": "merged",
         "conflicted": false,
         "resolutions": []
+      },
+      {
+        "name": "tray-priority-settings",
+        "oid": "051001166ff6fb289a2b8a82bb9a0b784e41a1ef",
+        "status": "merged",
+        "conflicted": true,
+        "resolutions": [
+          "54e30f9af003e3229d8967d701a3644353745427"
+        ],
+        "fixup": "0b365c6bee374f9d8c994d9649653d6f71244e7d"
       }
     ]
   }

@@ -49,6 +49,10 @@ branch = "mine:bar-size-units"
 branch = "mine:overflow-priority"
 summary = "Per-widget overflow priority: lower-priority auto widgets overflow first and return last"
 
+[[entry]]
+branch = "mine:tray-priority-settings"
+fixup = "patches/tray-priority-settings-search-index.patch"
+
 # Entries merge in order onto the base. Three kinds:
 #
 # [[entry]]
