@@ -9,7 +9,7 @@ and invariants.
 
 | Item | Location |
 | --- | --- |
-| Topic development checkout | `~/projects/dank-material-shell` (`origin` = upstream, `fork` = colonelpanic8/dux-shell) |
+| Topic development checkout | `~/projects/dux-shell` (`origin` = upstream, `fork` = colonelpanic8/dux-shell) |
 | Published artifact | `colonelpanic8/dux-shell` branch `assembled`, tags `dux-shell-assembled-*` |
 | Flake input | `dank-material-shell` in `/srv/dotfiles/nixos/flake.nix` |
 | NixOS module | `/srv/dotfiles/nixos/dank-material-shell.nix` |
