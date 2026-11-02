@@ -3,6 +3,7 @@
   "pins": {
     "base": "48e99f658e9ef986ffbd8f469d6a24e6f74be198",
     "entries": {
+      "bar-idle-countdown": "30e0ef5fb05d91da1b594fd7a41e63a9607496ff",
       "bar-network-ssid": "eae56a884ad98296f1d89be57d4d7a7859ed35b5",
       "bar-size-units": "a0e9a0310664b81c321d7891386a4c87c755805d",
       "calendar-task-markers": "d424f5543532879cf182b7fd018b915b8885de8a",
@@ -19,15 +20,15 @@
     }
   },
   "build": {
-    "generated": "2026-11-02T21:20:48.722954126+00:00",
+    "generated": "2026-11-02T23:55:28.567806794+00:00",
     "base": "48e99f658e9ef986ffbd8f469d6a24e6f74be198",
-    "commit": "8bcf599e0c01e88db7cef71ce225c18d5ce00cbe",
-    "pre_provenance_commit": "8bcf599e0c01e88db7cef71ce225c18d5ce00cbe",
-    "tree": "075bc088119b72d1f7f023e4b10c1ec7505b6433",
-    "built_tree": "075bc088119b72d1f7f023e4b10c1ec7505b6433",
-    "previous_tree": "3613ad8c057e452005a3b3a30f7c07439356f646",
+    "commit": "30bf9c2d39a1f97d2263d2e9cfe8910f44ac3d22",
+    "pre_provenance_commit": "30bf9c2d39a1f97d2263d2e9cfe8910f44ac3d22",
+    "tree": "15b9da1425d25e3381a7140df4fb7a32ed03f796",
+    "built_tree": "15b9da1425d25e3381a7140df4fb7a32ed03f796",
+    "previous_tree": "075bc088119b72d1f7f023e4b10c1ec7505b6433",
     "tree_changed": true,
-    "conflicts": 3,
+    "conflicts": 0,
     "manifest_entries": [
       {
         "name": "tray-retain-icon-while-loading",
@@ -107,6 +108,12 @@
         "kind": "branch",
         "source": "mine:calendar-task-markers",
         "pin": "d424f5543532879cf182b7fd018b915b8885de8a"
+      },
+      {
+        "name": "bar-idle-countdown",
+        "kind": "branch",
+        "source": "mine:bar-idle-countdown",
+        "pin": "30e0ef5fb05d91da1b594fd7a41e63a9607496ff"
       }
     ],
     "results": [
@@ -204,6 +211,13 @@
       {
         "name": "calendar-task-markers",
         "oid": "d424f5543532879cf182b7fd018b915b8885de8a",
+        "status": "merged",
+        "conflicted": false,
+        "resolutions": []
+      },
+      {
+        "name": "bar-idle-countdown",
+        "oid": "30e0ef5fb05d91da1b594fd7a41e63a9607496ff",
         "status": "merged",
         "conflicted": false,
         "resolutions": []

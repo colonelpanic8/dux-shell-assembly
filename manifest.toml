@@ -68,6 +68,10 @@ summary = "Ctrl+N/Ctrl+P step through entries in dmenu mode"
 [[entry]]
 branch = "mine:calendar-task-markers"
 
+[[entry]]
+branch = "mine:bar-idle-countdown"
+summary = "Bar widget counting down to the next idle action (screen off, lock, suspend)"
+
 # Entries merge in order onto the base. Three kinds:
 #
 # [[entry]]
