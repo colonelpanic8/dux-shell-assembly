@@ -33,7 +33,7 @@ summary = "Pad the active app highlight ring in the workspace switcher"
 
 [[entry]]
 branch = "mine:hyprland-minimized-bucket"
-summary = "Show minimized windows in one M bucket per monitor; hide scratchpad workspaces"
+summary = "Show minimized windows in one M bucket per monitor"
 
 [[entry]]
 branch = "mine:tray-priority-policy"

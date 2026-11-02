@@ -6,7 +6,7 @@
       "bar-network-ssid": "eae56a884ad98296f1d89be57d4d7a7859ed35b5",
       "bar-size-units": "a0e9a0310664b81c321d7891386a4c87c755805d",
       "disk-usage-percent-free": "9bb32173e6e8afb7e3fa8b73c4d96afa5fe127c6",
-      "hyprland-minimized-bucket": "8aa54e1e6e32d0167314a8af0d172773596856eb",
+      "hyprland-minimized-bucket": "e5814c564ec5d0ef32f0298d11cfcffd8ade199f",
       "overflow-priority": "676f598b59b371f9e642e69bb89914f1d75a8ce5",
       "tray-click-actions": "251884becde7015f20c2f43c328532f013b2a179",
       "tray-outline-low-contrast-icons": "f16a9b85cefa92e9b0299440c6bcadc0ef567bb2",
@@ -17,15 +17,15 @@
     }
   },
   "build": {
-    "generated": "2026-11-01T22:26:03.066439479+00:00",
+    "generated": "2026-11-02T02:02:19.416689810+00:00",
     "base": "48e99f658e9ef986ffbd8f469d6a24e6f74be198",
-    "commit": "dbea6402770ce90bce03b17f9f2ed363f3b82ff2",
-    "pre_provenance_commit": "dbea6402770ce90bce03b17f9f2ed363f3b82ff2",
-    "tree": "80d05f042d44ade690ca46f013ba12b84bca4b73",
-    "built_tree": "80d05f042d44ade690ca46f013ba12b84bca4b73",
-    "previous_tree": "2f7ef19acee20f0bd922b6c8d510d3c4def919d1",
+    "commit": "e30b358afcc631e54ae2885c30f45fca2661069c",
+    "pre_provenance_commit": "e30b358afcc631e54ae2885c30f45fca2661069c",
+    "tree": "b31522004881cce19d55a53a01988851a4a09a76",
+    "built_tree": "b31522004881cce19d55a53a01988851a4a09a76",
+    "previous_tree": "80d05f042d44ade690ca46f013ba12b84bca4b73",
     "tree_changed": true,
-    "conflicts": 0,
+    "conflicts": 3,
     "manifest_entries": [
       {
         "name": "tray-retain-icon-while-loading",
@@ -49,7 +49,7 @@
         "name": "hyprland-minimized-bucket",
         "kind": "branch",
         "source": "mine:hyprland-minimized-bucket",
-        "pin": "8aa54e1e6e32d0167314a8af0d172773596856eb"
+        "pin": "e5814c564ec5d0ef32f0298d11cfcffd8ade199f"
       },
       {
         "name": "tray-priority-policy",
@@ -121,7 +121,7 @@
       },
       {
         "name": "hyprland-minimized-bucket",
-        "oid": "8aa54e1e6e32d0167314a8af0d172773596856eb",
+        "oid": "e5814c564ec5d0ef32f0298d11cfcffd8ade199f",
         "status": "merged",
         "conflicted": false,
         "resolutions": []
