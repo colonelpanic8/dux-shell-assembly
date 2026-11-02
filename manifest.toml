@@ -65,6 +65,9 @@ summary = "Disk usage format showing percentage and remaining space"
 branch = "mine:dmenu-ctrl-n-p"
 summary = "Ctrl+N/Ctrl+P step through entries in dmenu mode"
 
+[[entry]]
+branch = "mine:calendar-task-markers"
+
 # Entries merge in order onto the base. Three kinds:
 #
 # [[entry]]
