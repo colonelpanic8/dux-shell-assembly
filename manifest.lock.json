@@ -5,7 +5,7 @@
     "entries": {
       "bar-network-ssid": "eae56a884ad98296f1d89be57d4d7a7859ed35b5",
       "bar-size-units": "a0e9a0310664b81c321d7891386a4c87c755805d",
-      "calendar-task-markers": "6a5e3b011ee3a1c60ddf4d87e2236b795ff5c0c4",
+      "calendar-task-markers": "d424f5543532879cf182b7fd018b915b8885de8a",
       "disk-usage-percent-free": "9bb32173e6e8afb7e3fa8b73c4d96afa5fe127c6",
       "dmenu-ctrl-n-p": "433600d039254416dd3761e78575b20a137645b2",
       "hyprland-minimized-bucket": "e5814c564ec5d0ef32f0298d11cfcffd8ade199f",
@@ -19,13 +19,13 @@
     }
   },
   "build": {
-    "generated": "2026-11-02T21:06:26.430824895+00:00",
+    "generated": "2026-11-02T21:20:48.722954126+00:00",
     "base": "48e99f658e9ef986ffbd8f469d6a24e6f74be198",
-    "commit": "1e5ef82da1d6aa5c2ad56b1761e07114b53f6dea",
-    "pre_provenance_commit": "1e5ef82da1d6aa5c2ad56b1761e07114b53f6dea",
-    "tree": "3613ad8c057e452005a3b3a30f7c07439356f646",
-    "built_tree": "3613ad8c057e452005a3b3a30f7c07439356f646",
-    "previous_tree": "6cb077624690b6a19dac1d4543518bd182be8807",
+    "commit": "8bcf599e0c01e88db7cef71ce225c18d5ce00cbe",
+    "pre_provenance_commit": "8bcf599e0c01e88db7cef71ce225c18d5ce00cbe",
+    "tree": "075bc088119b72d1f7f023e4b10c1ec7505b6433",
+    "built_tree": "075bc088119b72d1f7f023e4b10c1ec7505b6433",
+    "previous_tree": "3613ad8c057e452005a3b3a30f7c07439356f646",
     "tree_changed": true,
     "conflicts": 3,
     "manifest_entries": [
@@ -106,7 +106,7 @@
         "name": "calendar-task-markers",
         "kind": "branch",
         "source": "mine:calendar-task-markers",
-        "pin": "6a5e3b011ee3a1c60ddf4d87e2236b795ff5c0c4"
+        "pin": "d424f5543532879cf182b7fd018b915b8885de8a"
       }
     ],
     "results": [
@@ -203,7 +203,7 @@
       },
       {
         "name": "calendar-task-markers",
-        "oid": "6a5e3b011ee3a1c60ddf4d87e2236b795ff5c0c4",
+        "oid": "d424f5543532879cf182b7fd018b915b8885de8a",
         "status": "merged",
         "conflicted": false,
         "resolutions": []
