@@ -61,6 +61,10 @@ summary = "Optional Wi-Fi network name next to the control center network icon"
 branch = "mine:disk-usage-percent-free"
 summary = "Disk usage format showing percentage and remaining space"
 
+[[entry]]
+branch = "mine:dmenu-ctrl-n-p"
+summary = "Ctrl+N/Ctrl+P step through entries in dmenu mode"
+
 # Entries merge in order onto the base. Three kinds:
 #
 # [[entry]]

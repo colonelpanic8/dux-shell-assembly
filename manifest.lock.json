@@ -6,6 +6,7 @@
       "bar-network-ssid": "eae56a884ad98296f1d89be57d4d7a7859ed35b5",
       "bar-size-units": "a0e9a0310664b81c321d7891386a4c87c755805d",
       "disk-usage-percent-free": "9bb32173e6e8afb7e3fa8b73c4d96afa5fe127c6",
+      "dmenu-ctrl-n-p": "433600d039254416dd3761e78575b20a137645b2",
       "hyprland-minimized-bucket": "e5814c564ec5d0ef32f0298d11cfcffd8ade199f",
       "overflow-priority": "676f598b59b371f9e642e69bb89914f1d75a8ce5",
       "tray-click-actions": "251884becde7015f20c2f43c328532f013b2a179",
@@ -17,15 +18,15 @@
     }
   },
   "build": {
-    "generated": "2026-11-02T02:02:19.416689810+00:00",
+    "generated": "2026-11-02T07:59:10.086272186+00:00",
     "base": "48e99f658e9ef986ffbd8f469d6a24e6f74be198",
-    "commit": "e30b358afcc631e54ae2885c30f45fca2661069c",
-    "pre_provenance_commit": "e30b358afcc631e54ae2885c30f45fca2661069c",
-    "tree": "b31522004881cce19d55a53a01988851a4a09a76",
-    "built_tree": "b31522004881cce19d55a53a01988851a4a09a76",
-    "previous_tree": "80d05f042d44ade690ca46f013ba12b84bca4b73",
+    "commit": "d675faddb0b2e27b3f38750e7486294bcefa4379",
+    "pre_provenance_commit": "d675faddb0b2e27b3f38750e7486294bcefa4379",
+    "tree": "6cb077624690b6a19dac1d4543518bd182be8807",
+    "built_tree": "6cb077624690b6a19dac1d4543518bd182be8807",
+    "previous_tree": "b31522004881cce19d55a53a01988851a4a09a76",
     "tree_changed": true,
-    "conflicts": 3,
+    "conflicts": 0,
     "manifest_entries": [
       {
         "name": "tray-retain-icon-while-loading",
@@ -93,6 +94,12 @@
         "kind": "branch",
         "source": "mine:disk-usage-percent-free",
         "pin": "9bb32173e6e8afb7e3fa8b73c4d96afa5fe127c6"
+      },
+      {
+        "name": "dmenu-ctrl-n-p",
+        "kind": "branch",
+        "source": "mine:dmenu-ctrl-n-p",
+        "pin": "433600d039254416dd3761e78575b20a137645b2"
       }
     ],
     "results": [
@@ -176,6 +183,13 @@
       {
         "name": "disk-usage-percent-free",
         "oid": "9bb32173e6e8afb7e3fa8b73c4d96afa5fe127c6",
+        "status": "merged",
+        "conflicted": false,
+        "resolutions": []
+      },
+      {
+        "name": "dmenu-ctrl-n-p",
+        "oid": "433600d039254416dd3761e78575b20a137645b2",
         "status": "merged",
         "conflicted": false,
         "resolutions": []
