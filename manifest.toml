@@ -72,6 +72,9 @@ branch = "mine:calendar-task-markers"
 branch = "mine:bar-idle-countdown"
 summary = "Bar widget counting down to the next idle action (screen off, lock, suspend)"
 
+[[entry]]
+branch = "mine:workspace-urgent-window"
+
 # Entries merge in order onto the base. Three kinds:
 #
 # [[entry]]

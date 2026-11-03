@@ -16,19 +16,20 @@
       "tray-priority-policy": "63f890ce6f931be1d57c147b162672bb6f07191c",
       "tray-priority-settings": "051001166ff6fb289a2b8a82bb9a0b784e41a1ef",
       "tray-retain-icon-while-loading": "f159ac44155645539d8040e8ae1cbe789d44476e",
+      "workspace-urgent-window": "14cf35108a3a5331fc4e6168c63d6f249a8ed713",
       "workspaces-active-app-padding": "f57eb84eb1acbeeb3a1e7f1bc65a06e06a850263"
     }
   },
   "build": {
-    "generated": "2026-11-02T23:55:28.567806794+00:00",
+    "generated": "2026-11-03T03:22:32.642193084+00:00",
     "base": "48e99f658e9ef986ffbd8f469d6a24e6f74be198",
-    "commit": "30bf9c2d39a1f97d2263d2e9cfe8910f44ac3d22",
-    "pre_provenance_commit": "30bf9c2d39a1f97d2263d2e9cfe8910f44ac3d22",
-    "tree": "15b9da1425d25e3381a7140df4fb7a32ed03f796",
-    "built_tree": "15b9da1425d25e3381a7140df4fb7a32ed03f796",
-    "previous_tree": "075bc088119b72d1f7f023e4b10c1ec7505b6433",
+    "commit": "bb90c4d1b74a7d63ecb3714ee733888f4c2eb262",
+    "pre_provenance_commit": "bb90c4d1b74a7d63ecb3714ee733888f4c2eb262",
+    "tree": "215622c87055f5bb2fbae435d09d903a03f25e6e",
+    "built_tree": "215622c87055f5bb2fbae435d09d903a03f25e6e",
+    "previous_tree": "15b9da1425d25e3381a7140df4fb7a32ed03f796",
     "tree_changed": true,
-    "conflicts": 0,
+    "conflicts": 3,
     "manifest_entries": [
       {
         "name": "tray-retain-icon-while-loading",
@@ -114,6 +115,12 @@
         "kind": "branch",
         "source": "mine:bar-idle-countdown",
         "pin": "30e0ef5fb05d91da1b594fd7a41e63a9607496ff"
+      },
+      {
+        "name": "workspace-urgent-window",
+        "kind": "branch",
+        "source": "mine:workspace-urgent-window",
+        "pin": "14cf35108a3a5331fc4e6168c63d6f249a8ed713"
       }
     ],
     "results": [
@@ -218,6 +225,13 @@
       {
         "name": "bar-idle-countdown",
         "oid": "30e0ef5fb05d91da1b594fd7a41e63a9607496ff",
+        "status": "merged",
+        "conflicted": false,
+        "resolutions": []
+      },
+      {
+        "name": "workspace-urgent-window",
+        "oid": "14cf35108a3a5331fc4e6168c63d6f249a8ed713",
         "status": "merged",
         "conflicted": false,
         "resolutions": []
