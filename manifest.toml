@@ -79,6 +79,11 @@ branch = "mine:workspace-urgent-window"
 branch = "mine:media-lyrics-beside-track"
 summary = "Option to keep the title and artist beside lyrics, dropping lyrics first when the bar is tight"
 
+[[entry]]
+branch = "mine:tray-target-ordering"
+pr = 4109
+summary = "Order dms.service before tray.target so tray apps find the tray host"
+
 # Entries merge in order onto the base. Three kinds:
 #
 # [[entry]]

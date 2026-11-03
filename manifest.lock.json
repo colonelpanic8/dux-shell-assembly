@@ -17,18 +17,19 @@
       "tray-priority-policy": "63f890ce6f931be1d57c147b162672bb6f07191c",
       "tray-priority-settings": "051001166ff6fb289a2b8a82bb9a0b784e41a1ef",
       "tray-retain-icon-while-loading": "f159ac44155645539d8040e8ae1cbe789d44476e",
+      "tray-target-ordering": "999be94d812841fd6c9905ed5fadeeb7c79d70dc",
       "workspace-urgent-window": "14cf35108a3a5331fc4e6168c63d6f249a8ed713",
       "workspaces-active-app-padding": "f57eb84eb1acbeeb3a1e7f1bc65a06e06a850263"
     }
   },
   "build": {
-    "generated": "2026-11-03T08:02:12.479953998+00:00",
+    "generated": "2026-11-03T21:17:22.936320223+00:00",
     "base": "48e99f658e9ef986ffbd8f469d6a24e6f74be198",
-    "commit": "c6f1b658fb888f784af2df472a1629e1483f8945",
-    "pre_provenance_commit": "c6f1b658fb888f784af2df472a1629e1483f8945",
-    "tree": "a0f08f5168676e9b8c1fde9999739f48f6567feb",
-    "built_tree": "a0f08f5168676e9b8c1fde9999739f48f6567feb",
-    "previous_tree": "b5622ad6d71f403e21d4f335edb6b3fbaafa9f6d",
+    "commit": "326f2f2f6c16d5baa014acfc8fe023ba702422de",
+    "pre_provenance_commit": "326f2f2f6c16d5baa014acfc8fe023ba702422de",
+    "tree": "a8c4df04879b21b0f1a206a5dd2a3ec1415b0cdf",
+    "built_tree": "a8c4df04879b21b0f1a206a5dd2a3ec1415b0cdf",
+    "previous_tree": "a0f08f5168676e9b8c1fde9999739f48f6567feb",
     "tree_changed": true,
     "conflicts": 3,
     "manifest_entries": [
@@ -128,6 +129,12 @@
         "kind": "branch",
         "source": "mine:media-lyrics-beside-track",
         "pin": "0b465faeac4bddca53e2c7e4cfd8e2b866e109e4"
+      },
+      {
+        "name": "tray-target-ordering",
+        "kind": "branch",
+        "source": "mine:tray-target-ordering",
+        "pin": "999be94d812841fd6c9905ed5fadeeb7c79d70dc"
       }
     ],
     "results": [
@@ -246,6 +253,13 @@
       {
         "name": "media-lyrics-beside-track",
         "oid": "0b465faeac4bddca53e2c7e4cfd8e2b866e109e4",
+        "status": "merged",
+        "conflicted": false,
+        "resolutions": []
+      },
+      {
+        "name": "tray-target-ordering",
+        "oid": "999be94d812841fd6c9905ed5fadeeb7c79d70dc",
         "status": "merged",
         "conflicted": false,
         "resolutions": []
