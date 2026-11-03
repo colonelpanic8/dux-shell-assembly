@@ -75,6 +75,10 @@ summary = "Bar widget counting down to the next idle action (screen off, lock, s
 [[entry]]
 branch = "mine:workspace-urgent-window"
 
+[[entry]]
+branch = "mine:media-lyrics-beside-track"
+summary = "Option to keep the title and artist beside lyrics, dropping lyrics first when the bar is tight"
+
 # Entries merge in order onto the base. Three kinds:
 #
 # [[entry]]
