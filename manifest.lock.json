@@ -6,7 +6,7 @@
       "bar-idle-countdown": "b60c9229647a304f1b4e8bbbf7797184dab8cf8b",
       "bar-network-ssid": "eae56a884ad98296f1d89be57d4d7a7859ed35b5",
       "bar-size-units": "a0e9a0310664b81c321d7891386a4c87c755805d",
-      "calendar-task-markers": "d424f5543532879cf182b7fd018b915b8885de8a",
+      "calendar-task-markers": "f26297714b6045d8df9e72b760378d519d7b126e",
       "disk-usage-percent-free": "9bb32173e6e8afb7e3fa8b73c4d96afa5fe127c6",
       "dmenu-ctrl-n-p": "433600d039254416dd3761e78575b20a137645b2",
       "hyprland-minimized-bucket": "e5814c564ec5d0ef32f0298d11cfcffd8ade199f",
@@ -22,13 +22,13 @@
     }
   },
   "build": {
-    "generated": "2026-11-03T07:01:12.973276598+00:00",
+    "generated": "2026-11-03T08:02:12.479953998+00:00",
     "base": "48e99f658e9ef986ffbd8f469d6a24e6f74be198",
-    "commit": "d7b9c31a01ea5527a0c9d0f84095545d0520cf9f",
-    "pre_provenance_commit": "d7b9c31a01ea5527a0c9d0f84095545d0520cf9f",
-    "tree": "b5622ad6d71f403e21d4f335edb6b3fbaafa9f6d",
-    "built_tree": "b5622ad6d71f403e21d4f335edb6b3fbaafa9f6d",
-    "previous_tree": "769c935e1c7632470fd90c10d58c4daffc95cc85",
+    "commit": "c6f1b658fb888f784af2df472a1629e1483f8945",
+    "pre_provenance_commit": "c6f1b658fb888f784af2df472a1629e1483f8945",
+    "tree": "a0f08f5168676e9b8c1fde9999739f48f6567feb",
+    "built_tree": "a0f08f5168676e9b8c1fde9999739f48f6567feb",
+    "previous_tree": "b5622ad6d71f403e21d4f335edb6b3fbaafa9f6d",
     "tree_changed": true,
     "conflicts": 3,
     "manifest_entries": [
@@ -109,7 +109,7 @@
         "name": "calendar-task-markers",
         "kind": "branch",
         "source": "mine:calendar-task-markers",
-        "pin": "d424f5543532879cf182b7fd018b915b8885de8a"
+        "pin": "f26297714b6045d8df9e72b760378d519d7b126e"
       },
       {
         "name": "bar-idle-countdown",
@@ -224,7 +224,7 @@
       },
       {
         "name": "calendar-task-markers",
-        "oid": "d424f5543532879cf182b7fd018b915b8885de8a",
+        "oid": "f26297714b6045d8df9e72b760378d519d7b126e",
         "status": "merged",
         "conflicted": false,
         "resolutions": []
