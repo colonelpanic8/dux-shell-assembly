@@ -3,7 +3,7 @@
   "pins": {
     "base": "48e99f658e9ef986ffbd8f469d6a24e6f74be198",
     "entries": {
-      "bar-idle-countdown": "30e0ef5fb05d91da1b594fd7a41e63a9607496ff",
+      "bar-idle-countdown": "d0c02343de244da024794a176634fdb5ecd4fd9d",
       "bar-network-ssid": "eae56a884ad98296f1d89be57d4d7a7859ed35b5",
       "bar-size-units": "a0e9a0310664b81c321d7891386a4c87c755805d",
       "calendar-task-markers": "d424f5543532879cf182b7fd018b915b8885de8a",
@@ -21,13 +21,13 @@
     }
   },
   "build": {
-    "generated": "2026-11-03T03:22:32.642193084+00:00",
+    "generated": "2026-11-03T03:37:12.459368033+00:00",
     "base": "48e99f658e9ef986ffbd8f469d6a24e6f74be198",
-    "commit": "bb90c4d1b74a7d63ecb3714ee733888f4c2eb262",
-    "pre_provenance_commit": "bb90c4d1b74a7d63ecb3714ee733888f4c2eb262",
-    "tree": "215622c87055f5bb2fbae435d09d903a03f25e6e",
-    "built_tree": "215622c87055f5bb2fbae435d09d903a03f25e6e",
-    "previous_tree": "15b9da1425d25e3381a7140df4fb7a32ed03f796",
+    "commit": "d347454cec544707407773c9cb15ff49fa6c103d",
+    "pre_provenance_commit": "d347454cec544707407773c9cb15ff49fa6c103d",
+    "tree": "bdf9945339606c533a08b06e1a5dd486df3c4448",
+    "built_tree": "bdf9945339606c533a08b06e1a5dd486df3c4448",
+    "previous_tree": "215622c87055f5bb2fbae435d09d903a03f25e6e",
     "tree_changed": true,
     "conflicts": 3,
     "manifest_entries": [
@@ -114,7 +114,7 @@
         "name": "bar-idle-countdown",
         "kind": "branch",
         "source": "mine:bar-idle-countdown",
-        "pin": "30e0ef5fb05d91da1b594fd7a41e63a9607496ff"
+        "pin": "d0c02343de244da024794a176634fdb5ecd4fd9d"
       },
       {
         "name": "workspace-urgent-window",
@@ -224,7 +224,7 @@
       },
       {
         "name": "bar-idle-countdown",
-        "oid": "30e0ef5fb05d91da1b594fd7a41e63a9607496ff",
+        "oid": "d0c02343de244da024794a176634fdb5ecd4fd9d",
         "status": "merged",
         "conflicted": false,
         "resolutions": []
