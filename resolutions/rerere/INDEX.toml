@@ -8,12 +8,6 @@ paths = ["quickshell/Modules/DBar/Widgets/SystemTrayBar.qml"]
 recorded = "2026-11-01T07:36:31.249855655+00:00"
 
 [[resolution]]
-entry = "tray-outline-low-contrast-icons"
-hash = "8cfc9ad40233cefd39f26ea5c52b567533aef9b7"
-paths = ["quickshell/Modules/DBar/Widgets/TrayItemIcon.qml"]
-recorded = "2026-11-01T01:51:54.031217297+00:00"
-
-[[resolution]]
 entry = "tray-priority-settings"
 hash = "54e30f9af003e3229d8967d701a3644353745427"
 paths = ["quickshell/Modules/Settings/BarWidgetOptions/SystemTrayOptions.qml"]

@@ -1,49 +1,40 @@
 {
   "version": 1,
   "pins": {
-    "base": "48e99f658e9ef986ffbd8f469d6a24e6f74be198",
+    "base": "ceb9f8cee53e4bc509e1c8420d6c9a3005830034",
     "entries": {
       "bar-idle-countdown": "028e545de70acef0a2ebc84228ff895bc67803d7",
       "bar-network-ssid": "eae56a884ad98296f1d89be57d4d7a7859ed35b5",
-      "bar-size-units": "a0e9a0310664b81c321d7891386a4c87c755805d",
+      "bar-size-units": "940a2388b8d65c797be3437eb6ce38c898ceb9fc",
       "calendar-task-markers": "f26297714b6045d8df9e72b760378d519d7b126e",
       "disk-usage-percent-free": "9bb32173e6e8afb7e3fa8b73c4d96afa5fe127c6",
-      "dmenu-ctrl-n-p": "433600d039254416dd3761e78575b20a137645b2",
       "hyprland-minimized-bucket": "e5814c564ec5d0ef32f0298d11cfcffd8ade199f",
       "media-lyrics-beside-track": "0b465faeac4bddca53e2c7e4cfd8e2b866e109e4",
-      "overflow-priority": "676f598b59b371f9e642e69bb89914f1d75a8ce5",
       "tray-click-actions": "251884becde7015f20c2f43c328532f013b2a179",
-      "tray-outline-low-contrast-icons": "f16a9b85cefa92e9b0299440c6bcadc0ef567bb2",
+      "tray-outline-low-contrast-icons": "78f68f794d796150bb813b2499686ea5ed7fa041",
       "tray-priority-policy": "63f890ce6f931be1d57c147b162672bb6f07191c",
       "tray-priority-settings": "051001166ff6fb289a2b8a82bb9a0b784e41a1ef",
-      "tray-retain-icon-while-loading": "f159ac44155645539d8040e8ae1cbe789d44476e",
-      "tray-target-ordering": "999be94d812841fd6c9905ed5fadeeb7c79d70dc",
+      "tray-target-ordering": "021af5dbf28cd9bdfc93124c190cfe43b35dc2d2",
       "workspace-urgent-window": "14cf35108a3a5331fc4e6168c63d6f249a8ed713",
       "workspaces-active-app-padding": "f57eb84eb1acbeeb3a1e7f1bc65a06e06a850263"
     }
   },
   "build": {
-    "generated": "2026-11-04T18:51:57.979545654+00:00",
-    "base": "48e99f658e9ef986ffbd8f469d6a24e6f74be198",
-    "commit": "3f7d81cb1fd00242e1ac0ad0da7b9ad70576ba7d",
-    "pre_provenance_commit": "3f7d81cb1fd00242e1ac0ad0da7b9ad70576ba7d",
-    "tree": "1a9156c7bf9036a8529951c75115adc9300906fa",
-    "built_tree": "1a9156c7bf9036a8529951c75115adc9300906fa",
-    "previous_tree": "5cf045fe3254c1b7d163c465ef78fcdb269d2c25",
+    "generated": "2026-11-04T18:58:34.757884328+00:00",
+    "base": "ceb9f8cee53e4bc509e1c8420d6c9a3005830034",
+    "commit": "1ee4619a889700360191e3155c66233b1f9f6092",
+    "pre_provenance_commit": "1ee4619a889700360191e3155c66233b1f9f6092",
+    "tree": "5fbf796fb76f01d279412382e95cd8d14a916a3c",
+    "built_tree": "5fbf796fb76f01d279412382e95cd8d14a916a3c",
+    "previous_tree": "1a9156c7bf9036a8529951c75115adc9300906fa",
     "tree_changed": true,
-    "conflicts": 3,
+    "conflicts": 2,
     "manifest_entries": [
-      {
-        "name": "tray-retain-icon-while-loading",
-        "kind": "branch",
-        "source": "mine:tray-retain-icon-while-loading",
-        "pin": "f159ac44155645539d8040e8ae1cbe789d44476e"
-      },
       {
         "name": "tray-outline-low-contrast-icons",
         "kind": "branch",
         "source": "mine:tray-outline-low-contrast-icons",
-        "pin": "f16a9b85cefa92e9b0299440c6bcadc0ef567bb2"
+        "pin": "78f68f794d796150bb813b2499686ea5ed7fa041"
       },
       {
         "name": "workspaces-active-app-padding",
@@ -73,13 +64,7 @@
         "name": "bar-size-units",
         "kind": "branch",
         "source": "mine:bar-size-units",
-        "pin": "a0e9a0310664b81c321d7891386a4c87c755805d"
-      },
-      {
-        "name": "overflow-priority",
-        "kind": "branch",
-        "source": "mine:overflow-priority",
-        "pin": "676f598b59b371f9e642e69bb89914f1d75a8ce5"
+        "pin": "940a2388b8d65c797be3437eb6ce38c898ceb9fc"
       },
       {
         "name": "tray-priority-settings",
@@ -99,12 +84,6 @@
         "kind": "branch",
         "source": "mine:disk-usage-percent-free",
         "pin": "9bb32173e6e8afb7e3fa8b73c4d96afa5fe127c6"
-      },
-      {
-        "name": "dmenu-ctrl-n-p",
-        "kind": "branch",
-        "source": "mine:dmenu-ctrl-n-p",
-        "pin": "433600d039254416dd3761e78575b20a137645b2"
       },
       {
         "name": "calendar-task-markers",
@@ -134,25 +113,16 @@
         "name": "tray-target-ordering",
         "kind": "branch",
         "source": "mine:tray-target-ordering",
-        "pin": "999be94d812841fd6c9905ed5fadeeb7c79d70dc"
+        "pin": "021af5dbf28cd9bdfc93124c190cfe43b35dc2d2"
       }
     ],
     "results": [
       {
-        "name": "tray-retain-icon-while-loading",
-        "oid": "f159ac44155645539d8040e8ae1cbe789d44476e",
+        "name": "tray-outline-low-contrast-icons",
+        "oid": "78f68f794d796150bb813b2499686ea5ed7fa041",
         "status": "merged",
         "conflicted": false,
         "resolutions": []
-      },
-      {
-        "name": "tray-outline-low-contrast-icons",
-        "oid": "f16a9b85cefa92e9b0299440c6bcadc0ef567bb2",
-        "status": "merged",
-        "conflicted": true,
-        "resolutions": [
-          "8cfc9ad40233cefd39f26ea5c52b567533aef9b7"
-        ]
       },
       {
         "name": "workspaces-active-app-padding",
@@ -186,14 +156,7 @@
       },
       {
         "name": "bar-size-units",
-        "oid": "a0e9a0310664b81c321d7891386a4c87c755805d",
-        "status": "merged",
-        "conflicted": false,
-        "resolutions": []
-      },
-      {
-        "name": "overflow-priority",
-        "oid": "676f598b59b371f9e642e69bb89914f1d75a8ce5",
+        "oid": "940a2388b8d65c797be3437eb6ce38c898ceb9fc",
         "status": "merged",
         "conflicted": false,
         "resolutions": []
@@ -218,13 +181,6 @@
       {
         "name": "disk-usage-percent-free",
         "oid": "9bb32173e6e8afb7e3fa8b73c4d96afa5fe127c6",
-        "status": "merged",
-        "conflicted": false,
-        "resolutions": []
-      },
-      {
-        "name": "dmenu-ctrl-n-p",
-        "oid": "433600d039254416dd3761e78575b20a137645b2",
         "status": "merged",
         "conflicted": false,
         "resolutions": []
@@ -259,7 +215,7 @@
       },
       {
         "name": "tray-target-ordering",
-        "oid": "999be94d812841fd6c9905ed5fadeeb7c79d70dc",
+        "oid": "021af5dbf28cd9bdfc93124c190cfe43b35dc2d2",
         "status": "merged",
         "conflicted": false,
         "resolutions": []

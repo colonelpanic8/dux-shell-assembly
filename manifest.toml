@@ -20,10 +20,6 @@ branch = "assembled"
 tag_prefix = "dux-shell-assembled"
 
 [[entry]]
-branch = "mine:tray-retain-icon-while-loading"
-summary = "Keep a tray icon on screen while its new pixmap loads"
-
-[[entry]]
 branch = "mine:tray-outline-low-contrast-icons"
 summary = "Outline tray icons drawn in colors close to the bar background"
 
@@ -46,10 +42,6 @@ branch = "mine:tray-click-actions"
 branch = "mine:bar-size-units"
 
 [[entry]]
-branch = "mine:overflow-priority"
-summary = "Per-widget overflow priority: lower-priority auto widgets overflow first and return last"
-
-[[entry]]
 branch = "mine:tray-priority-settings"
 fixup = "patches/tray-priority-settings-search-index.patch"
 
@@ -60,10 +52,6 @@ summary = "Optional Wi-Fi network name next to the control center network icon"
 [[entry]]
 branch = "mine:disk-usage-percent-free"
 summary = "Disk usage format showing percentage and remaining space"
-
-[[entry]]
-branch = "mine:dmenu-ctrl-n-p"
-summary = "Ctrl+N/Ctrl+P step through entries in dmenu mode"
 
 [[entry]]
 branch = "mine:calendar-task-markers"
