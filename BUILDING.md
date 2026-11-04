@@ -13,6 +13,7 @@ and invariants.
 | Published artifact | `colonelpanic8/dux-shell` branch `assembled`, tags `dux-shell-assembled-*` |
 | Flake input | `dux-shell` in `/srv/dotfiles/nixos/flake.nix` |
 | NixOS module | `/srv/dotfiles/nixos/dux-shell.nix` |
+| Shared QML library override | `colonelpanic8/dux-qml-common` branch `month-grid-task-markers` (checkout `~/projects/dux-qml-common`), set as `dux-shell.inputs.dank-qml-common` in the dotfiles flake for `calendar-task-markers` |
 
 The fork's old `dotfiles` branch is retired; do not commit to it.
 
@@ -35,7 +36,10 @@ Release eagerly; validate afterwards and fix forward.
    `patches/` with explicit paths, and push.
 5. `just publish` pushes the build worktree to `assembled` and tags it.
 6. In `/srv/dotfiles/nixos`: `nix flake update dux-shell`, then
-   `just switch`.
+   `just switch`. When the base moved, first rebase the `dux-qml-common`
+   override branch onto upstream `master`, push it, and also run
+   `nix flake update dux-shell/dank-qml-common`: a stale copy breaks
+   QML that uses newer shared widgets, and `DMSShell` fails to load.
 7. Validate: `nix build .#checks.x86_64-linux.dms-workspaces --no-link` from
    `/srv/dotfiles/nixos`, and `systemctl --user restart dms.service` if the
    shell is running.
