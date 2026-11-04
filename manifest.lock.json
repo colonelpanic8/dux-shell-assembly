@@ -8,7 +8,7 @@
       "bar-size-units": "940a2388b8d65c797be3437eb6ce38c898ceb9fc",
       "calendar-task-markers": "f26297714b6045d8df9e72b760378d519d7b126e",
       "disk-usage-percent-free": "9bb32173e6e8afb7e3fa8b73c4d96afa5fe127c6",
-      "hyprland-minimized-bucket": "e5814c564ec5d0ef32f0298d11cfcffd8ade199f",
+      "hyprland-minimized-bucket": "85149f12b2616f2f1a9060fb5782c00fb5ee1055",
       "media-lyrics-beside-track": "0b465faeac4bddca53e2c7e4cfd8e2b866e109e4",
       "tray-click-actions": "251884becde7015f20c2f43c328532f013b2a179",
       "tray-outline-low-contrast-icons": "78f68f794d796150bb813b2499686ea5ed7fa041",
@@ -20,13 +20,13 @@
     }
   },
   "build": {
-    "generated": "2026-11-04T18:58:34.757884328+00:00",
+    "generated": "2026-11-04T19:18:23.390088559+00:00",
     "base": "ceb9f8cee53e4bc509e1c8420d6c9a3005830034",
-    "commit": "1ee4619a889700360191e3155c66233b1f9f6092",
-    "pre_provenance_commit": "1ee4619a889700360191e3155c66233b1f9f6092",
-    "tree": "5fbf796fb76f01d279412382e95cd8d14a916a3c",
-    "built_tree": "5fbf796fb76f01d279412382e95cd8d14a916a3c",
-    "previous_tree": "1a9156c7bf9036a8529951c75115adc9300906fa",
+    "commit": "47ac82d1e0178f051c915631cf503a10d85f4881",
+    "pre_provenance_commit": "47ac82d1e0178f051c915631cf503a10d85f4881",
+    "tree": "e8452047ba100812ba5656711de139d5b5701c77",
+    "built_tree": "e8452047ba100812ba5656711de139d5b5701c77",
+    "previous_tree": "5fbf796fb76f01d279412382e95cd8d14a916a3c",
     "tree_changed": true,
     "conflicts": 2,
     "manifest_entries": [
@@ -46,7 +46,7 @@
         "name": "hyprland-minimized-bucket",
         "kind": "branch",
         "source": "mine:hyprland-minimized-bucket",
-        "pin": "e5814c564ec5d0ef32f0298d11cfcffd8ade199f"
+        "pin": "85149f12b2616f2f1a9060fb5782c00fb5ee1055"
       },
       {
         "name": "tray-priority-policy",
@@ -133,7 +133,7 @@
       },
       {
         "name": "hyprland-minimized-bucket",
-        "oid": "e5814c564ec5d0ef32f0298d11cfcffd8ade199f",
+        "oid": "85149f12b2616f2f1a9060fb5782c00fb5ee1055",
         "status": "merged",
         "conflicted": false,
         "resolutions": []
