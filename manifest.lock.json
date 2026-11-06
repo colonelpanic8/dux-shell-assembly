@@ -14,7 +14,7 @@
       "tray-click-actions": "251884becde7015f20c2f43c328532f013b2a179",
       "tray-key-fallback": "86d321074ec901d2e43d7b6b59bdf3942cd754e6",
       "tray-outline-low-contrast-icons": "78f68f794d796150bb813b2499686ea5ed7fa041",
-      "tray-placement": "1fdb273d14d43f065e75beb30dbb152916746140",
+      "tray-placement": "aa9715b1c52267550f0459645bf14424a8d68673",
       "tray-priority-policy": "be109a3cd18b4846f9fe41fbc1f85867edfd68aa",
       "tray-priority-settings": "02af161acdd23a385e01d4776720e00c95752a05",
       "tray-target-ordering": "021af5dbf28cd9bdfc93124c190cfe43b35dc2d2",
@@ -23,13 +23,13 @@
     }
   },
   "build": {
-    "generated": "2026-11-06T09:58:00.978044963+00:00",
+    "generated": "2026-11-06T10:00:27.806675362+00:00",
     "base": "c1c789a1584fb09446293c923b434dcb6325b354",
-    "commit": "7ab4d7a2f2d8fc812d60fcba555b53b7d7fca06d",
-    "pre_provenance_commit": "7ab4d7a2f2d8fc812d60fcba555b53b7d7fca06d",
-    "tree": "40c3b3b604e00a7490e8caf980e3a4ef3df89fe2",
-    "built_tree": "40c3b3b604e00a7490e8caf980e3a4ef3df89fe2",
-    "previous_tree": "30000eff7876d9a64714c527aecee1de35cbd6f8",
+    "commit": "a55b6e2fac331b6cca72c96ef30dc625b5f67167",
+    "pre_provenance_commit": "a55b6e2fac331b6cca72c96ef30dc625b5f67167",
+    "tree": "66c7365a0f4f67cc37044dff56e16d9b3c99bee7",
+    "built_tree": "66c7365a0f4f67cc37044dff56e16d9b3c99bee7",
+    "previous_tree": "40c3b3b604e00a7490e8caf980e3a4ef3df89fe2",
     "tree_changed": true,
     "conflicts": 5,
     "manifest_entries": [
@@ -135,7 +135,7 @@
         "name": "tray-placement",
         "kind": "branch",
         "source": "mine:tray-placement",
-        "pin": "1fdb273d14d43f065e75beb30dbb152916746140"
+        "pin": "aa9715b1c52267550f0459645bf14424a8d68673"
       }
     ],
     "results": [
@@ -264,7 +264,7 @@
       },
       {
         "name": "tray-placement",
-        "oid": "1fdb273d14d43f065e75beb30dbb152916746140",
+        "oid": "aa9715b1c52267550f0459645bf14424a8d68673",
         "status": "merged",
         "conflicted": true,
         "resolutions": [
