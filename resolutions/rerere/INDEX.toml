@@ -27,27 +27,27 @@ recorded = "2026-11-06T07:38:33.432041451+00:00"
 
 [[resolution]]
 entry = "tray-placement"
-hash = "2447d2384748f2e5b4a04b0b33ff5d3f6c7a98e0"
-paths = ["quickshell/Modules/Settings/BarWidgetOptions/SystemTrayOptions.qml"]
-recorded = "2026-11-06T07:39:55.557057125+00:00"
-
-[[resolution]]
-entry = "tray-placement"
-hash = "5154305a0f3ee5cd66d6e9dc9720115a1c86f216"
+hash = "3ed01482b3bd4809b99cac5e1866fd3a0006e571"
 paths = ["quickshell/translations/settings_search_index.json"]
-recorded = "2026-11-06T07:39:55.557059319+00:00"
+recorded = "2026-11-06T08:11:00.271478468+00:00"
 
 [[resolution]]
 entry = "tray-placement"
-hash = "7d68417888149e31e72906314ea75a04947cff4d"
-paths = ["quickshell/Common/SettingsData.qml"]
-recorded = "2026-11-06T07:39:55.557059780+00:00"
+hash = "48f1038bb553b72cd97af1ed1a4bce0d4c68c305"
+paths = ["quickshell/Modules/Settings/BarWidgetOptions/SystemTrayOptions.qml"]
+recorded = "2026-11-06T08:11:00.271480863+00:00"
 
 [[resolution]]
 entry = "tray-placement"
-hash = "b0356f95dc6d703ce801184325020fd615c86718"
+hash = "54c273cb07d4cf182a77ecdcfd3c2d337cc78a7e"
 paths = ["quickshell/Common/settings/SettingsSpec.js"]
-recorded = "2026-11-06T07:39:55.557060050+00:00"
+recorded = "2026-11-06T08:11:00.271481213+00:00"
+
+[[resolution]]
+entry = "tray-placement"
+hash = "daa273de085ce6e9fe42577ee09eb80e4a82f343"
+paths = ["quickshell/Common/SettingsData.qml"]
+recorded = "2026-11-06T08:11:00.271481434+00:00"
 
 [[resolution]]
 entry = "tray-priority-settings"
