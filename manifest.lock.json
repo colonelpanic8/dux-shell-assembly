@@ -13,21 +13,21 @@
       "media-lyrics-beside-track": "0b465faeac4bddca53e2c7e4cfd8e2b866e109e4",
       "tray-click-actions": "251884becde7015f20c2f43c328532f013b2a179",
       "tray-outline-low-contrast-icons": "78f68f794d796150bb813b2499686ea5ed7fa041",
-      "tray-priority-policy": "63f890ce6f931be1d57c147b162672bb6f07191c",
-      "tray-priority-settings": "fab73cb02b6fb6c12d8ffff3533f6e8a23049d70",
+      "tray-priority-policy": "be109a3cd18b4846f9fe41fbc1f85867edfd68aa",
+      "tray-priority-settings": "02af161acdd23a385e01d4776720e00c95752a05",
       "tray-target-ordering": "021af5dbf28cd9bdfc93124c190cfe43b35dc2d2",
       "workspace-urgent-window": "14cf35108a3a5331fc4e6168c63d6f249a8ed713",
       "workspaces-active-app-padding": "f57eb84eb1acbeeb3a1e7f1bc65a06e06a850263"
     }
   },
   "build": {
-    "generated": "2026-11-06T06:59:36.613077941+00:00",
+    "generated": "2026-11-06T07:27:42.404092140+00:00",
     "base": "c1c789a1584fb09446293c923b434dcb6325b354",
-    "commit": "27c4f519e0d08e53ed63106706ef919040296739",
-    "pre_provenance_commit": "27c4f519e0d08e53ed63106706ef919040296739",
-    "tree": "520fc2331c70e2162c7a7cdd654e98586e83d1bc",
-    "built_tree": "520fc2331c70e2162c7a7cdd654e98586e83d1bc",
-    "previous_tree": "deaef3f7902d68355a71fdea05168a2aa2f8dfca",
+    "commit": "01a35f0668a5ba8db58cfd5f57dee052ae1847ec",
+    "pre_provenance_commit": "01a35f0668a5ba8db58cfd5f57dee052ae1847ec",
+    "tree": "c1dc652a1ada6802b51f77560370b730e8ded6bd",
+    "built_tree": "c1dc652a1ada6802b51f77560370b730e8ded6bd",
+    "previous_tree": "520fc2331c70e2162c7a7cdd654e98586e83d1bc",
     "tree_changed": true,
     "conflicts": 3,
     "manifest_entries": [
@@ -53,7 +53,7 @@
         "name": "tray-priority-policy",
         "kind": "branch",
         "source": "mine:tray-priority-policy",
-        "pin": "63f890ce6f931be1d57c147b162672bb6f07191c"
+        "pin": "be109a3cd18b4846f9fe41fbc1f85867edfd68aa"
       },
       {
         "name": "tray-click-actions",
@@ -71,7 +71,7 @@
         "name": "tray-priority-settings",
         "kind": "branch",
         "source": "mine:tray-priority-settings",
-        "pin": "fab73cb02b6fb6c12d8ffff3533f6e8a23049d70",
+        "pin": "02af161acdd23a385e01d4776720e00c95752a05",
         "fixup": "0b365c6bee374f9d8c994d9649653d6f71244e7d"
       },
       {
@@ -148,7 +148,7 @@
       },
       {
         "name": "tray-priority-policy",
-        "oid": "63f890ce6f931be1d57c147b162672bb6f07191c",
+        "oid": "be109a3cd18b4846f9fe41fbc1f85867edfd68aa",
         "status": "merged",
         "conflicted": false,
         "resolutions": []
@@ -159,7 +159,8 @@
         "status": "merged",
         "conflicted": true,
         "resolutions": [
-          "7e5fda3492d6af6d4e628173b8e33469c389331d"
+          "7e5fda3492d6af6d4e628173b8e33469c389331d",
+          "a704a68140a086e7747e09f4dd5bde952459df07"
         ]
       },
       {
@@ -171,7 +172,7 @@
       },
       {
         "name": "tray-priority-settings",
-        "oid": "fab73cb02b6fb6c12d8ffff3533f6e8a23049d70",
+        "oid": "02af161acdd23a385e01d4776720e00c95752a05",
         "status": "merged",
         "conflicted": true,
         "resolutions": [
