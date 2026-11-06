@@ -8,7 +8,7 @@
       "bar-size-units": "940a2388b8d65c797be3437eb6ce38c898ceb9fc",
       "calendar-task-markers": "f26297714b6045d8df9e72b760378d519d7b126e",
       "disk-usage-percent-free": "9bb32173e6e8afb7e3fa8b73c4d96afa5fe127c6",
-      "dock-peek-tray": "5151597b5ae86f86dd91ef523dd4cb48eb17d1ce",
+      "dock-peek-tray": "1cf1ed77b24e760d2b38c9b304a4807bc2e9530f",
       "hyprland-minimized-bucket": "19c36821b9fa1754db773aa6a76be49dd9caedf2",
       "media-lyrics-beside-track": "0b465faeac4bddca53e2c7e4cfd8e2b866e109e4",
       "tray-click-actions": "251884becde7015f20c2f43c328532f013b2a179",
@@ -21,13 +21,13 @@
     }
   },
   "build": {
-    "generated": "2026-11-06T06:33:57.364845424+00:00",
+    "generated": "2026-11-06T06:59:36.613077941+00:00",
     "base": "c1c789a1584fb09446293c923b434dcb6325b354",
-    "commit": "d84825f41ff773b001d9da87d5191bb63a8c702b",
-    "pre_provenance_commit": "d84825f41ff773b001d9da87d5191bb63a8c702b",
-    "tree": "deaef3f7902d68355a71fdea05168a2aa2f8dfca",
-    "built_tree": "deaef3f7902d68355a71fdea05168a2aa2f8dfca",
-    "previous_tree": "1934d315171ab6928b137017666280ba52decb86",
+    "commit": "27c4f519e0d08e53ed63106706ef919040296739",
+    "pre_provenance_commit": "27c4f519e0d08e53ed63106706ef919040296739",
+    "tree": "520fc2331c70e2162c7a7cdd654e98586e83d1bc",
+    "built_tree": "520fc2331c70e2162c7a7cdd654e98586e83d1bc",
+    "previous_tree": "deaef3f7902d68355a71fdea05168a2aa2f8dfca",
     "tree_changed": true,
     "conflicts": 3,
     "manifest_entries": [
@@ -120,7 +120,7 @@
         "name": "dock-peek-tray",
         "kind": "branch",
         "source": "mine:dock-peek-tray",
-        "pin": "5151597b5ae86f86dd91ef523dd4cb48eb17d1ce",
+        "pin": "1cf1ed77b24e760d2b38c9b304a4807bc2e9530f",
         "fixup": "2269162fd1975e9c17fa16f632afedf9f523a6a3"
       }
     ],
@@ -230,7 +230,7 @@
       },
       {
         "name": "dock-peek-tray",
-        "oid": "5151597b5ae86f86dd91ef523dd4cb48eb17d1ce",
+        "oid": "1cf1ed77b24e760d2b38c9b304a4807bc2e9530f",
         "status": "merged",
         "conflicted": true,
         "resolutions": [
