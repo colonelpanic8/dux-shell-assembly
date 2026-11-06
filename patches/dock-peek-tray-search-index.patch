@@ -1,8 +1,17 @@
 diff --git a/quickshell/translations/settings_search_index.json b/quickshell/translations/settings_search_index.json
-index ab484873a..26c1ec084 100644
+index d6a669dc3..e6de2f25a 100644
 --- a/quickshell/translations/settings_search_index.json
 +++ b/quickshell/translations/settings_search_index.json
-@@ -11280,7 +11280,7 @@
+@@ -10912,7 +10912,7 @@
+     "optionFile": "AppsDockOptions.qml"
+   },
+   {
+-    "section": "barWidgetOption:SystemTrayOptions.qml:10",
++    "section": "barWidgetOption:SystemTrayOptions.qml:12",
+     "label": "Leading icons",
+     "tabIndex": 22,
+     "keywords": [],
+@@ -11288,7 +11288,7 @@
      "optionFile": "SystemMonitorOptions.qml"
    },
    {
