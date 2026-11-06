@@ -3,12 +3,6 @@
 # replay uses the pair directories, verification uses the lock tree.
 [[resolution]]
 entry = "dock-peek-tray"
-hash = "4c3aba855e37eb28474e917787491e19cb5200e2"
-paths = ["quickshell/Modules/DBar/Widgets/SystemTrayBar.qml"]
-recorded = "2026-11-06T05:21:48.724619765+00:00"
-
-[[resolution]]
-entry = "dock-peek-tray"
 hash = "c5dc44dc1d5adfd4e7fed2c7606743777b044794"
 paths = ["quickshell/Modules/Settings/BarWidgetOptions/SystemTrayOptions.qml"]
 recorded = "2026-11-06T05:21:48.724622541+00:00"
