@@ -76,6 +76,9 @@ summary = "Order dms.service before tray.target so tray apps find the tray host"
 branch = "mine:dock-peek-tray"
 fixup = "patches/dock-peek-tray-search-index.patch"
 
+[[entry]]
+branch = "mine:tray-key-fallback"
+
 # Entries merge in order onto the base. Three kinds:
 #
 # [[entry]]

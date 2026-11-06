@@ -12,6 +12,7 @@
       "hyprland-minimized-bucket": "19c36821b9fa1754db773aa6a76be49dd9caedf2",
       "media-lyrics-beside-track": "0b465faeac4bddca53e2c7e4cfd8e2b866e109e4",
       "tray-click-actions": "251884becde7015f20c2f43c328532f013b2a179",
+      "tray-key-fallback": "86d321074ec901d2e43d7b6b59bdf3942cd754e6",
       "tray-outline-low-contrast-icons": "78f68f794d796150bb813b2499686ea5ed7fa041",
       "tray-priority-policy": "be109a3cd18b4846f9fe41fbc1f85867edfd68aa",
       "tray-priority-settings": "02af161acdd23a385e01d4776720e00c95752a05",
@@ -21,15 +22,15 @@
     }
   },
   "build": {
-    "generated": "2026-11-06T07:27:42.404092140+00:00",
+    "generated": "2026-11-06T07:38:33.443259341+00:00",
     "base": "c1c789a1584fb09446293c923b434dcb6325b354",
-    "commit": "01a35f0668a5ba8db58cfd5f57dee052ae1847ec",
-    "pre_provenance_commit": "01a35f0668a5ba8db58cfd5f57dee052ae1847ec",
-    "tree": "c1dc652a1ada6802b51f77560370b730e8ded6bd",
-    "built_tree": "c1dc652a1ada6802b51f77560370b730e8ded6bd",
-    "previous_tree": "520fc2331c70e2162c7a7cdd654e98586e83d1bc",
+    "commit": "5f0437af600c8009d2c5488d6aaa21996ee3c38e",
+    "pre_provenance_commit": "5f0437af600c8009d2c5488d6aaa21996ee3c38e",
+    "tree": "e67d003a93312b9e65006493993743a868bf7fba",
+    "built_tree": "e67d003a93312b9e65006493993743a868bf7fba",
+    "previous_tree": "c1dc652a1ada6802b51f77560370b730e8ded6bd",
     "tree_changed": true,
-    "conflicts": 3,
+    "conflicts": 1,
     "manifest_entries": [
       {
         "name": "tray-outline-low-contrast-icons",
@@ -122,6 +123,12 @@
         "source": "mine:dock-peek-tray",
         "pin": "1cf1ed77b24e760d2b38c9b304a4807bc2e9530f",
         "fixup": "2269162fd1975e9c17fa16f632afedf9f523a6a3"
+      },
+      {
+        "name": "tray-key-fallback",
+        "kind": "branch",
+        "source": "mine:tray-key-fallback",
+        "pin": "86d321074ec901d2e43d7b6b59bdf3942cd754e6"
       }
     ],
     "results": [
@@ -238,6 +245,15 @@
           "c1f6a4491e739e9f8698b50d2d9ed9486b1d8c7a"
         ],
         "fixup": "2269162fd1975e9c17fa16f632afedf9f523a6a3"
+      },
+      {
+        "name": "tray-key-fallback",
+        "oid": "86d321074ec901d2e43d7b6b59bdf3942cd754e6",
+        "status": "merged",
+        "conflicted": true,
+        "resolutions": [
+          "35ceab502ad60584250f0665a3d1f7937303f696"
+        ]
       }
     ]
   }
