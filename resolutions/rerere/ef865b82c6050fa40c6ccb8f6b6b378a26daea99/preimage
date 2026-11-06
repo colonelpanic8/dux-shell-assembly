@@ -611,6 +611,7 @@ var LOCAL_SPEC = {
     systemTrayIconTintStrength: {
         def: 135
     },
+<<<<<<<
     systemTrayLeftClickAction: {
         def: "activate"
     },
@@ -623,10 +624,14 @@ var LOCAL_SPEC = {
     systemTrayItemClickActions: {
         def: {}
     },
+=======
     systemTrayQuickMenu: {
         def: true
     },
     trayCollapseDefault: {
+        def: true
+    },
+    trayExpandOnHoverDefault: {
         def: true
     },
     systemTrayDefaultPlacement: {
@@ -635,6 +640,7 @@ var LOCAL_SPEC = {
     trayOverflowToDock: {
         def: false
     },
+>>>>>>>
     controlCenterColumns: {
         def: 8
     },

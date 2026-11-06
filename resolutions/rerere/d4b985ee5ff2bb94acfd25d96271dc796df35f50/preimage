@@ -457,6 +457,7 @@ Singleton {
     property string systemTrayDefaultPlacement: Spec.SPEC.systemTrayDefaultPlacement.def
     property bool trayOverflowToDock: Spec.SPEC.trayOverflowToDock.def
     property bool trayCollapseDefault: Spec.SPEC.trayCollapseDefault.def
+    property bool trayExpandOnHoverDefault: Spec.SPEC.trayExpandOnHoverDefault.def
 =======
     property string systemTrayLeftClickAction: Spec.SPEC.systemTrayLeftClickAction.def
     property string systemTrayMiddleClickAction: Spec.SPEC.systemTrayMiddleClickAction.def

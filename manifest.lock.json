@@ -14,7 +14,7 @@
       "tray-click-actions": "251884becde7015f20c2f43c328532f013b2a179",
       "tray-key-fallback": "86d321074ec901d2e43d7b6b59bdf3942cd754e6",
       "tray-outline-low-contrast-icons": "78f68f794d796150bb813b2499686ea5ed7fa041",
-      "tray-placement": "f7a3812de60942fbc0356a62bf0b910337d81343",
+      "tray-placement": "1fdb273d14d43f065e75beb30dbb152916746140",
       "tray-priority-policy": "be109a3cd18b4846f9fe41fbc1f85867edfd68aa",
       "tray-priority-settings": "02af161acdd23a385e01d4776720e00c95752a05",
       "tray-target-ordering": "021af5dbf28cd9bdfc93124c190cfe43b35dc2d2",
@@ -23,13 +23,13 @@
     }
   },
   "build": {
-    "generated": "2026-11-06T08:11:00.281696465+00:00",
+    "generated": "2026-11-06T08:40:28.173451057+00:00",
     "base": "c1c789a1584fb09446293c923b434dcb6325b354",
-    "commit": "77eef551e75d192b24b14d3865c8150cfdc015fb",
-    "pre_provenance_commit": "77eef551e75d192b24b14d3865c8150cfdc015fb",
-    "tree": "fe5da08ef17fe561cce8f5342c6a40d0a535df82",
-    "built_tree": "fe5da08ef17fe561cce8f5342c6a40d0a535df82",
-    "previous_tree": "9f3e33e78708247203a7e5896c0834b18d21f081",
+    "commit": "b842ae0ca7e10e901ec72f35606ab22a18754ff2",
+    "pre_provenance_commit": "b842ae0ca7e10e901ec72f35606ab22a18754ff2",
+    "tree": "30000eff7876d9a64714c527aecee1de35cbd6f8",
+    "built_tree": "30000eff7876d9a64714c527aecee1de35cbd6f8",
+    "previous_tree": "fe5da08ef17fe561cce8f5342c6a40d0a535df82",
     "tree_changed": true,
     "conflicts": 5,
     "manifest_entries": [
@@ -135,7 +135,7 @@
         "name": "tray-placement",
         "kind": "branch",
         "source": "mine:tray-placement",
-        "pin": "f7a3812de60942fbc0356a62bf0b910337d81343"
+        "pin": "1fdb273d14d43f065e75beb30dbb152916746140"
       }
     ],
     "results": [
@@ -264,14 +264,14 @@
       },
       {
         "name": "tray-placement",
-        "oid": "f7a3812de60942fbc0356a62bf0b910337d81343",
+        "oid": "1fdb273d14d43f065e75beb30dbb152916746140",
         "status": "merged",
         "conflicted": true,
         "resolutions": [
-          "3ed01482b3bd4809b99cac5e1866fd3a0006e571",
-          "48f1038bb553b72cd97af1ed1a4bce0d4c68c305",
-          "54c273cb07d4cf182a77ecdcfd3c2d337cc78a7e",
-          "daa273de085ce6e9fe42577ee09eb80e4a82f343"
+          "7d3bd00fa0213240545769b913b5f51327d92688",
+          "85ef8c551bf12a862014a204ea57644dfd6f7986",
+          "d4b985ee5ff2bb94acfd25d96271dc796df35f50",
+          "ef865b82c6050fa40c6ccb8f6b6b378a26daea99"
         ]
       }
     ]
