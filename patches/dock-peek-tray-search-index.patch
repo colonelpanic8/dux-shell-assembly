@@ -1,0 +1,13 @@
+diff --git a/quickshell/translations/settings_search_index.json b/quickshell/translations/settings_search_index.json
+index ab484873a..26c1ec084 100644
+--- a/quickshell/translations/settings_search_index.json
++++ b/quickshell/translations/settings_search_index.json
+@@ -11280,7 +11280,7 @@
+     "optionFile": "SystemMonitorOptions.qml"
+   },
+   {
+-    "section": "barWidgetOption:SystemTrayOptions.qml:9",
++    "section": "barWidgetOption:SystemTrayOptions.qml:11",
+     "label": "Show when collapsed",
+     "tabIndex": 22,
+     "keywords": [],
