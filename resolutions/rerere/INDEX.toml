@@ -26,6 +26,30 @@ paths = ["quickshell/Common/TrayMenuManager.qml"]
 recorded = "2026-11-06T07:38:33.432041451+00:00"
 
 [[resolution]]
+entry = "tray-placement"
+hash = "2447d2384748f2e5b4a04b0b33ff5d3f6c7a98e0"
+paths = ["quickshell/Modules/Settings/BarWidgetOptions/SystemTrayOptions.qml"]
+recorded = "2026-11-06T07:39:55.557057125+00:00"
+
+[[resolution]]
+entry = "tray-placement"
+hash = "5154305a0f3ee5cd66d6e9dc9720115a1c86f216"
+paths = ["quickshell/translations/settings_search_index.json"]
+recorded = "2026-11-06T07:39:55.557059319+00:00"
+
+[[resolution]]
+entry = "tray-placement"
+hash = "7d68417888149e31e72906314ea75a04947cff4d"
+paths = ["quickshell/Common/SettingsData.qml"]
+recorded = "2026-11-06T07:39:55.557059780+00:00"
+
+[[resolution]]
+entry = "tray-placement"
+hash = "b0356f95dc6d703ce801184325020fd615c86718"
+paths = ["quickshell/Common/settings/SettingsSpec.js"]
+recorded = "2026-11-06T07:39:55.557060050+00:00"
+
+[[resolution]]
 entry = "tray-priority-settings"
 hash = "54e30f9af003e3229d8967d701a3644353745427"
 paths = ["quickshell/Modules/Settings/BarWidgetOptions/SystemTrayOptions.qml"]

@@ -79,6 +79,9 @@ fixup = "patches/dock-peek-tray-search-index.patch"
 [[entry]]
 branch = "mine:tray-key-fallback"
 
+[[entry]]
+branch = "mine:tray-placement"
+
 # Entries merge in order onto the base. Three kinds:
 #
 # [[entry]]
