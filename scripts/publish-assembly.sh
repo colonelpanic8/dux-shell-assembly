@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 # Push the build worktree's assembled commit to manifest.toml's [publish]
-# branch and tag it. The lock's tree hash is the invariant: refuse to publish a
-# worktree that does not carry it. The push is a force (a rebuild re-commits
-# rather than fast-forwards), leased against the head we observed.
+# branch and tag it. The lock pins the commit, which fork-assembler builds
+# deterministically: refuse to publish a worktree at any other. The push is a
+# force (a rebuild re-commits rather than fast-forwards), leased against the
+# head we observed.
 #
 # Usage: publish-assembly.sh [BUILD_WORKTREE]
 
@@ -57,6 +58,13 @@ actual_tree="$(git -C "$worktree" rev-parse 'HEAD^{tree}')"
 if [[ "$actual_tree" != "$expected_tree" ]]; then
   echo "error: $worktree carries tree $actual_tree, but $lock_file pins $expected_tree" >&2
   echo "       run \`fork-assembler build --locked\` to reproduce the locked tree first" >&2
+  exit 1
+fi
+
+expected_commit="$(jq -r '.build.commit' "$lock_file")"
+if [[ "$commit" != "$expected_commit" ]]; then
+  echo "error: $worktree is at $commit, but $lock_file pins $expected_commit" >&2
+  echo "       run \`fork-assembler build --locked\` to reproduce the locked commit first" >&2
   exit 1
 fi
 
