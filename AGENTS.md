@@ -9,8 +9,9 @@ topic branches into a single branch, with tracked conflict resolutions.
 - `manifest.toml` is INTENT: named remotes, the base, and the ordered entries
   (branches, PRs, patch files).
 - `manifest.lock.json` is FACT: the OIDs the last build used, the assembled
-  commit, and its tree hash. The tree hash is the reproducibility invariant;
-  commit IDs are not.
+  commit, and its tree hash. Generated commits are deterministic, so the same
+  recipe reproduces the same assembled commit OID anywhere; `build --locked`
+  verifies the commit, not just the tree.
 - `resolutions/rerere/<hash>/{preimage,postimage}` are tracked git-rerere
   pairs replaying each conflicted merge's hunks. Every build seeds the build
   worktree's rr-cache exclusively from them (wiped first, so nothing ambient
@@ -44,7 +45,7 @@ topic branches into a single branch, with tracked conflict resolutions.
 - Rerere pairs capture only conflicted-hunk resolutions. If a correct
   resolution also needs edits outside the conflict hunks, put those edits in
   the entry's coherence fixup — a rebuild will otherwise surface them as a
-  tree mismatch. The lock's tree hash is the sole verification invariant.
+  tree mismatch.
 - Every entry boundary should be a coherent tree. A cross-entry repair
   belongs on the entry that made it necessary (its `fixup`), not in a patch
   entry parked at the end of the stack.
@@ -72,6 +73,8 @@ fork-assembler build --locked         # reproduce exactly; no network, no new pi
 fork-assembler update [ENTRY...]      # batch bump: repin base + entries to live heads
 fork-assembler prune [--dry-run]      # drop entries whose changes landed in the base
 fork-assembler gc [--dry-run]         # remove tracked pairs the last build did not use
+fork-assembler assembled [REV] [--checkout DIR]  # REV's assembled commit, regenerated if gone
+fork-assembler diff [FROM] [TO] [--carried]      # git diff between two revs' assembled branches
 ```
 
 `build` never moves existing pins; `update` is the only verb that does. The
