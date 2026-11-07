@@ -23,14 +23,15 @@
     }
   },
   "build": {
-    "generated": "2026-11-07T03:04:59.727675464+00:00",
+    "protocol": 1,
+    "generated": "2026-11-07T23:08:55.623629042+00:00",
     "base": "c1c789a1584fb09446293c923b434dcb6325b354",
-    "commit": "a3637aa232caffef899e717575c59abcc3542e1d",
-    "pre_provenance_commit": "a3637aa232caffef899e717575c59abcc3542e1d",
+    "commit": "98ca9953f8b3c7e24fad495e8d9e7c8a257210a9",
+    "pre_provenance_commit": "98ca9953f8b3c7e24fad495e8d9e7c8a257210a9",
     "tree": "abf50aa34db9599c0cd89a83ee280876025e5577",
     "built_tree": "abf50aa34db9599c0cd89a83ee280876025e5577",
-    "previous_tree": "e0748c1162be3bcab8063a115000f6bfd2d0ed1e",
-    "tree_changed": true,
+    "previous_tree": "abf50aa34db9599c0cd89a83ee280876025e5577",
+    "tree_changed": false,
     "conflicts": 5,
     "manifest_entries": [
       {
