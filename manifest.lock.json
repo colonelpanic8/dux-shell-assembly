@@ -1,37 +1,37 @@
 {
   "version": 1,
   "pins": {
-    "base": "c1c789a1584fb09446293c923b434dcb6325b354",
+    "base": "32d6c430f89f58122c8f4a6de5b38aaf5316b1d3",
     "entries": {
       "bar-idle-countdown": "1db12cd12494dcc4c7ad7800f09acf1274cba336",
       "bar-network-ssid": "eae56a884ad98296f1d89be57d4d7a7859ed35b5",
       "bar-size-units": "940a2388b8d65c797be3437eb6ce38c898ceb9fc",
       "calendar-task-markers": "f26297714b6045d8df9e72b760378d519d7b126e",
       "disk-usage-percent-free": "9bb32173e6e8afb7e3fa8b73c4d96afa5fe127c6",
-      "dock-peek-tray": "1cf1ed77b24e760d2b38c9b304a4807bc2e9530f",
+      "dmenu-large-list-perf": "39ab6603a0b11bbba826b010d46ca1ddbc7d2b50",
+      "dock-peek-tray": "4e5b2e0caa03b257ddc3e5b190bc7977b6ef175f",
       "hyprland-minimized-bucket": "19c36821b9fa1754db773aa6a76be49dd9caedf2",
       "media-lyrics-beside-track": "0b465faeac4bddca53e2c7e4cfd8e2b866e109e4",
       "tray-click-actions": "251884becde7015f20c2f43c328532f013b2a179",
       "tray-key-fallback": "86d321074ec901d2e43d7b6b59bdf3942cd754e6",
       "tray-outline-low-contrast-icons": "78f68f794d796150bb813b2499686ea5ed7fa041",
-      "tray-placement": "78cfdd3cf8cb4dfe5a40dd8e996804bc7f961cec",
+      "tray-placement": "ad2a84b8dd4c2638dea739d9d4213c96293aeb70",
       "tray-priority-policy": "be109a3cd18b4846f9fe41fbc1f85867edfd68aa",
       "tray-priority-settings": "02af161acdd23a385e01d4776720e00c95752a05",
-      "tray-target-ordering": "021af5dbf28cd9bdfc93124c190cfe43b35dc2d2",
       "workspace-urgent-window": "14cf35108a3a5331fc4e6168c63d6f249a8ed713",
       "workspaces-active-app-padding": "f57eb84eb1acbeeb3a1e7f1bc65a06e06a850263"
     }
   },
   "build": {
     "protocol": 1,
-    "generated": "2026-11-07T23:08:55.623629042+00:00",
-    "base": "c1c789a1584fb09446293c923b434dcb6325b354",
-    "commit": "98ca9953f8b3c7e24fad495e8d9e7c8a257210a9",
-    "pre_provenance_commit": "98ca9953f8b3c7e24fad495e8d9e7c8a257210a9",
-    "tree": "abf50aa34db9599c0cd89a83ee280876025e5577",
-    "built_tree": "abf50aa34db9599c0cd89a83ee280876025e5577",
+    "generated": "2026-11-08T23:18:06.921350955+00:00",
+    "base": "32d6c430f89f58122c8f4a6de5b38aaf5316b1d3",
+    "commit": "5d7856f13f333fb16ea7a4b7ac229d8a94cb3b0f",
+    "pre_provenance_commit": "5d7856f13f333fb16ea7a4b7ac229d8a94cb3b0f",
+    "tree": "495ce50a406a38b51058598aebc8a3eff9f38a2e",
+    "built_tree": "495ce50a406a38b51058598aebc8a3eff9f38a2e",
     "previous_tree": "abf50aa34db9599c0cd89a83ee280876025e5577",
-    "tree_changed": false,
+    "tree_changed": true,
     "conflicts": 5,
     "manifest_entries": [
       {
@@ -114,16 +114,10 @@
         "pin": "0b465faeac4bddca53e2c7e4cfd8e2b866e109e4"
       },
       {
-        "name": "tray-target-ordering",
-        "kind": "branch",
-        "source": "mine:tray-target-ordering",
-        "pin": "021af5dbf28cd9bdfc93124c190cfe43b35dc2d2"
-      },
-      {
         "name": "dock-peek-tray",
         "kind": "branch",
         "source": "mine:dock-peek-tray",
-        "pin": "1cf1ed77b24e760d2b38c9b304a4807bc2e9530f",
+        "pin": "4e5b2e0caa03b257ddc3e5b190bc7977b6ef175f",
         "fixup": "2269162fd1975e9c17fa16f632afedf9f523a6a3"
       },
       {
@@ -136,7 +130,13 @@
         "name": "tray-placement",
         "kind": "branch",
         "source": "mine:tray-placement",
-        "pin": "78cfdd3cf8cb4dfe5a40dd8e996804bc7f961cec"
+        "pin": "ad2a84b8dd4c2638dea739d9d4213c96293aeb70"
+      },
+      {
+        "name": "dmenu-large-list-perf",
+        "kind": "branch",
+        "source": "mine:dmenu-large-list-perf",
+        "pin": "39ab6603a0b11bbba826b010d46ca1ddbc7d2b50"
       }
     ],
     "results": [
@@ -238,15 +238,8 @@
         "resolutions": []
       },
       {
-        "name": "tray-target-ordering",
-        "oid": "021af5dbf28cd9bdfc93124c190cfe43b35dc2d2",
-        "status": "empty",
-        "conflicted": false,
-        "resolutions": []
-      },
-      {
         "name": "dock-peek-tray",
-        "oid": "1cf1ed77b24e760d2b38c9b304a4807bc2e9530f",
+        "oid": "4e5b2e0caa03b257ddc3e5b190bc7977b6ef175f",
         "status": "merged",
         "conflicted": true,
         "resolutions": [
@@ -265,7 +258,7 @@
       },
       {
         "name": "tray-placement",
-        "oid": "78cfdd3cf8cb4dfe5a40dd8e996804bc7f961cec",
+        "oid": "ad2a84b8dd4c2638dea739d9d4213c96293aeb70",
         "status": "merged",
         "conflicted": true,
         "resolutions": [
@@ -274,6 +267,13 @@
           "d4b985ee5ff2bb94acfd25d96271dc796df35f50",
           "ef865b82c6050fa40c6ccb8f6b6b378a26daea99"
         ]
+      },
+      {
+        "name": "dmenu-large-list-perf",
+        "oid": "39ab6603a0b11bbba826b010d46ca1ddbc7d2b50",
+        "status": "merged",
+        "conflicted": false,
+        "resolutions": []
       }
     ]
   }

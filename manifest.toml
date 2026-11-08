@@ -68,11 +68,6 @@ branch = "mine:media-lyrics-beside-track"
 summary = "Option to keep the title and artist beside lyrics, dropping lyrics first when the bar is tight"
 
 [[entry]]
-branch = "mine:tray-target-ordering"
-pr = 4109
-summary = "Order dms.service before tray.target so tray apps find the tray host"
-
-[[entry]]
 branch = "mine:dock-peek-tray"
 fixup = "patches/dock-peek-tray-search-index.patch"
 
@@ -81,6 +76,15 @@ branch = "mine:tray-key-fallback"
 
 [[entry]]
 branch = "mine:tray-placement"
+
+[[entry]]
+branch = "mine:dmenu-large-list-perf"
+pr = 4214
+summary = "Keep dmenu typing responsive with thousands of items (no per-keystroke ScriptModel diff)"
+
+[[exclude]]
+branch = "mine:tray-target-ordering"
+reason = "landed upstream as PR #4109 (squash-merged 2026-11-05); merge is empty on base 32d6c430"
 
 # Entries merge in order onto the base. Three kinds:
 #
