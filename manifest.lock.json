@@ -9,6 +9,7 @@
       "calendar-task-markers": "f26297714b6045d8df9e72b760378d519d7b126e",
       "disk-usage-percent-free": "9bb32173e6e8afb7e3fa8b73c4d96afa5fe127c6",
       "dmenu-large-list-perf": "0a84c90024517237ebe4d6516f7b9507c9712889",
+      "dmenu-stream-search-throttle": "95e4ffb974dfff9eb48e5a66180127be5342b9c9",
       "dock-peek-tray": "4e5b2e0caa03b257ddc3e5b190bc7977b6ef175f",
       "hyprland-minimized-bucket": "19c36821b9fa1754db773aa6a76be49dd9caedf2",
       "launcher-match-perf": "9d16664d1dec68833e94035615b0a5d86e21e4bf",
@@ -25,13 +26,13 @@
   },
   "build": {
     "protocol": 1,
-    "generated": "2026-11-09T01:32:01.591575279+00:00",
+    "generated": "2026-11-09T02:00:58.038748817+00:00",
     "base": "32d6c430f89f58122c8f4a6de5b38aaf5316b1d3",
-    "commit": "6346252571f80d7a690d331dcac8bc220f0baa3a",
-    "pre_provenance_commit": "6346252571f80d7a690d331dcac8bc220f0baa3a",
-    "tree": "6960aa6c648f3a8e4156c253a2ccabf43f04fff7",
-    "built_tree": "6960aa6c648f3a8e4156c253a2ccabf43f04fff7",
-    "previous_tree": "c69430a6168b623b0468ae7c6dc196eee68a86b9",
+    "commit": "5d3bbd56994a0294bad28def7046e1be86f725eb",
+    "pre_provenance_commit": "5d3bbd56994a0294bad28def7046e1be86f725eb",
+    "tree": "4166eb65a2b44f1dd1817126ba3a710f6c29e301",
+    "built_tree": "4166eb65a2b44f1dd1817126ba3a710f6c29e301",
+    "previous_tree": "6960aa6c648f3a8e4156c253a2ccabf43f04fff7",
     "tree_changed": true,
     "conflicts": 5,
     "manifest_entries": [
@@ -144,6 +145,12 @@
         "kind": "branch",
         "source": "mine:launcher-match-perf",
         "pin": "9d16664d1dec68833e94035615b0a5d86e21e4bf"
+      },
+      {
+        "name": "dmenu-stream-search-throttle",
+        "kind": "branch",
+        "source": "mine:dmenu-stream-search-throttle",
+        "pin": "95e4ffb974dfff9eb48e5a66180127be5342b9c9"
       }
     ],
     "results": [
@@ -285,6 +292,13 @@
       {
         "name": "launcher-match-perf",
         "oid": "9d16664d1dec68833e94035615b0a5d86e21e4bf",
+        "status": "merged",
+        "conflicted": false,
+        "resolutions": []
+      },
+      {
+        "name": "dmenu-stream-search-throttle",
+        "oid": "95e4ffb974dfff9eb48e5a66180127be5342b9c9",
         "status": "merged",
         "conflicted": false,
         "resolutions": []
