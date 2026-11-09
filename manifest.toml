@@ -82,6 +82,11 @@ branch = "mine:dmenu-large-list-perf"
 pr = 4214
 summary = "Keep dmenu typing responsive with thousands of items (no per-keystroke ScriptModel diff)"
 
+[[entry]]
+branch = "mine:launcher-match-perf"
+pr = 4215
+summary = "Cut per-keystroke fzf matching work in the launcher (cache prepared names, cheap rejection before fzf)"
+
 [[exclude]]
 branch = "mine:tray-target-ordering"
 reason = "landed upstream as PR #4109 (squash-merged 2026-11-05); merge is empty on base 32d6c430"
