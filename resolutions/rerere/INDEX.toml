@@ -8,6 +8,30 @@ paths = ["quickshell/Modules/Settings/BarWidgetOptions/SystemTrayOptions.qml"]
 recorded = "2026-11-06T06:33:57.318049026+00:00"
 
 [[resolution]]
+entry = "minimized-windows-widget"
+hash = "0751b879e385c1c2e278f48771a186183b34a78f"
+paths = ["quickshell/Common/SettingsData.qml"]
+recorded = "2026-11-09T04:33:02.997739799+00:00"
+
+[[resolution]]
+entry = "minimized-windows-widget"
+hash = "139b90c13da98e5954eafaf1a1800cf0c390a7ab"
+paths = ["quickshell/Common/SessionData.qml"]
+recorded = "2026-11-09T04:33:02.997741963+00:00"
+
+[[resolution]]
+entry = "minimized-windows-widget"
+hash = "9d70a00465b767d9a4892f326222b14e4f55e680"
+paths = ["quickshell/Common/settings/SettingsSpec.js"]
+recorded = "2026-11-09T04:33:02.997742374+00:00"
+
+[[resolution]]
+entry = "minimized-windows-widget"
+hash = "cdea4df6334b985dedad07580c81337780479676"
+paths = ["quickshell/Common/settings/SessionSpec.js"]
+recorded = "2026-11-09T04:33:02.997742725+00:00"
+
+[[resolution]]
 entry = "tray-click-actions"
 hash = "7e5fda3492d6af6d4e628173b8e33469c389331d"
 paths = ["quickshell/Modules/DBar/Widgets/SystemTrayBar.qml"]

@@ -29,15 +29,15 @@
   },
   "build": {
     "protocol": 1,
-    "generated": "2026-11-09T04:18:28.126386698+00:00",
+    "generated": "2026-11-09T04:33:03.046060045+00:00",
     "base": "32d6c430f89f58122c8f4a6de5b38aaf5316b1d3",
-    "commit": "e410d577d0c64a436cc6cad030ccf29d08925568",
-    "pre_provenance_commit": "e410d577d0c64a436cc6cad030ccf29d08925568",
-    "tree": "ddaa874fee054bd5304dfcc34fca2c1f31ff5421",
-    "built_tree": "ddaa874fee054bd5304dfcc34fca2c1f31ff5421",
-    "previous_tree": "093da4a69db5f71783f736336ea73c37cf35e738",
+    "commit": "bd4370bbc7334f2081cc3ebcd9740bc6f582c041",
+    "pre_provenance_commit": "bd4370bbc7334f2081cc3ebcd9740bc6f582c041",
+    "tree": "5fe1d34d6508348a4f1ab838d3e3cea9c43c0654",
+    "built_tree": "5fe1d34d6508348a4f1ab838d3e3cea9c43c0654",
+    "previous_tree": "ddaa874fee054bd5304dfcc34fca2c1f31ff5421",
     "tree_changed": true,
-    "conflicts": 5,
+    "conflicts": 6,
     "manifest_entries": [
       {
         "name": "tray-outline-low-contrast-icons",
@@ -165,7 +165,7 @@
         "name": "minimized-windows-widget",
         "kind": "branch",
         "source": "mine:minimized-windows-widget",
-        "pin": "8365942d4ddc44f5590780171d8cf6be55c744c6"
+        "pin": "70493a78387fa80873e252e295e1abb846f44392"
       },
       {
         "name": "dock-edge-slots",
@@ -333,10 +333,15 @@
       },
       {
         "name": "minimized-windows-widget",
-        "oid": "8365942d4ddc44f5590780171d8cf6be55c744c6",
+        "oid": "70493a78387fa80873e252e295e1abb846f44392",
         "status": "merged",
-        "conflicted": false,
-        "resolutions": []
+        "conflicted": true,
+        "resolutions": [
+          "0751b879e385c1c2e278f48771a186183b34a78f",
+          "139b90c13da98e5954eafaf1a1800cf0c390a7ab",
+          "9d70a00465b767d9a4892f326222b14e4f55e680",
+          "cdea4df6334b985dedad07580c81337780479676"
+        ]
       },
       {
         "name": "dock-edge-slots",
