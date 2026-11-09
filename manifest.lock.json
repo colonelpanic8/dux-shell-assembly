@@ -8,10 +8,10 @@
       "bar-size-units": "940a2388b8d65c797be3437eb6ce38c898ceb9fc",
       "calendar-task-markers": "f26297714b6045d8df9e72b760378d519d7b126e",
       "disk-usage-percent-free": "9bb32173e6e8afb7e3fa8b73c4d96afa5fe127c6",
-      "dmenu-large-list-perf": "39ab6603a0b11bbba826b010d46ca1ddbc7d2b50",
+      "dmenu-large-list-perf": "0a84c90024517237ebe4d6516f7b9507c9712889",
       "dock-peek-tray": "4e5b2e0caa03b257ddc3e5b190bc7977b6ef175f",
       "hyprland-minimized-bucket": "19c36821b9fa1754db773aa6a76be49dd9caedf2",
-      "launcher-match-perf": "148ad01eece96d7b49351421bf6bdbf0645fb413",
+      "launcher-match-perf": "9d16664d1dec68833e94035615b0a5d86e21e4bf",
       "media-lyrics-beside-track": "0b465faeac4bddca53e2c7e4cfd8e2b866e109e4",
       "tray-click-actions": "251884becde7015f20c2f43c328532f013b2a179",
       "tray-key-fallback": "86d321074ec901d2e43d7b6b59bdf3942cd754e6",
@@ -25,15 +25,15 @@
   },
   "build": {
     "protocol": 1,
-    "generated": "2026-11-09T00:56:38.710656063+00:00",
+    "generated": "2026-11-09T01:32:01.591575279+00:00",
     "base": "32d6c430f89f58122c8f4a6de5b38aaf5316b1d3",
-    "commit": "d2fc014a2d450c2899d6192ba7241c57298541da",
-    "pre_provenance_commit": "d2fc014a2d450c2899d6192ba7241c57298541da",
-    "tree": "c69430a6168b623b0468ae7c6dc196eee68a86b9",
-    "built_tree": "c69430a6168b623b0468ae7c6dc196eee68a86b9",
-    "previous_tree": "495ce50a406a38b51058598aebc8a3eff9f38a2e",
+    "commit": "6346252571f80d7a690d331dcac8bc220f0baa3a",
+    "pre_provenance_commit": "6346252571f80d7a690d331dcac8bc220f0baa3a",
+    "tree": "6960aa6c648f3a8e4156c253a2ccabf43f04fff7",
+    "built_tree": "6960aa6c648f3a8e4156c253a2ccabf43f04fff7",
+    "previous_tree": "c69430a6168b623b0468ae7c6dc196eee68a86b9",
     "tree_changed": true,
-    "conflicts": 0,
+    "conflicts": 5,
     "manifest_entries": [
       {
         "name": "tray-outline-low-contrast-icons",
@@ -137,13 +137,13 @@
         "name": "dmenu-large-list-perf",
         "kind": "branch",
         "source": "mine:dmenu-large-list-perf",
-        "pin": "39ab6603a0b11bbba826b010d46ca1ddbc7d2b50"
+        "pin": "0a84c90024517237ebe4d6516f7b9507c9712889"
       },
       {
         "name": "launcher-match-perf",
         "kind": "branch",
         "source": "mine:launcher-match-perf",
-        "pin": "148ad01eece96d7b49351421bf6bdbf0645fb413"
+        "pin": "9d16664d1dec68833e94035615b0a5d86e21e4bf"
       }
     ],
     "results": [
@@ -277,14 +277,14 @@
       },
       {
         "name": "dmenu-large-list-perf",
-        "oid": "39ab6603a0b11bbba826b010d46ca1ddbc7d2b50",
+        "oid": "0a84c90024517237ebe4d6516f7b9507c9712889",
         "status": "merged",
         "conflicted": false,
         "resolutions": []
       },
       {
         "name": "launcher-match-perf",
-        "oid": "148ad01eece96d7b49351421bf6bdbf0645fb413",
+        "oid": "9d16664d1dec68833e94035615b0a5d86e21e4bf",
         "status": "merged",
         "conflicted": false,
         "resolutions": []
