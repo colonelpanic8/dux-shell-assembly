@@ -12,6 +12,7 @@
       "dmenu-stream-search-throttle": "95e4ffb974dfff9eb48e5a66180127be5342b9c9",
       "dock-peek-tray": "4e5b2e0caa03b257ddc3e5b190bc7977b6ef175f",
       "hyprland-minimized-bucket": "19c36821b9fa1754db773aa6a76be49dd9caedf2",
+      "launcher-match-loops": "70840f4ea97f3e9fee923bf53c252828fbb38b28",
       "launcher-match-perf": "9d16664d1dec68833e94035615b0a5d86e21e4bf",
       "media-lyrics-beside-track": "0b465faeac4bddca53e2c7e4cfd8e2b866e109e4",
       "tray-click-actions": "251884becde7015f20c2f43c328532f013b2a179",
@@ -26,15 +27,15 @@
   },
   "build": {
     "protocol": 1,
-    "generated": "2026-11-09T02:00:58.038748817+00:00",
+    "generated": "2026-11-09T03:00:38.121630364+00:00",
     "base": "32d6c430f89f58122c8f4a6de5b38aaf5316b1d3",
-    "commit": "5d3bbd56994a0294bad28def7046e1be86f725eb",
-    "pre_provenance_commit": "5d3bbd56994a0294bad28def7046e1be86f725eb",
-    "tree": "4166eb65a2b44f1dd1817126ba3a710f6c29e301",
-    "built_tree": "4166eb65a2b44f1dd1817126ba3a710f6c29e301",
-    "previous_tree": "6960aa6c648f3a8e4156c253a2ccabf43f04fff7",
+    "commit": "e1fd2919605cc0d946ecbf38128955876dc6792b",
+    "pre_provenance_commit": "e1fd2919605cc0d946ecbf38128955876dc6792b",
+    "tree": "0701c485ebd67d2ec1842e9393a110baba42a295",
+    "built_tree": "0701c485ebd67d2ec1842e9393a110baba42a295",
+    "previous_tree": "4166eb65a2b44f1dd1817126ba3a710f6c29e301",
     "tree_changed": true,
-    "conflicts": 5,
+    "conflicts": 0,
     "manifest_entries": [
       {
         "name": "tray-outline-low-contrast-icons",
@@ -151,6 +152,12 @@
         "kind": "branch",
         "source": "mine:dmenu-stream-search-throttle",
         "pin": "95e4ffb974dfff9eb48e5a66180127be5342b9c9"
+      },
+      {
+        "name": "launcher-match-loops",
+        "kind": "branch",
+        "source": "mine:launcher-match-loops",
+        "pin": "70840f4ea97f3e9fee923bf53c252828fbb38b28"
       }
     ],
     "results": [
@@ -299,6 +306,13 @@
       {
         "name": "dmenu-stream-search-throttle",
         "oid": "95e4ffb974dfff9eb48e5a66180127be5342b9c9",
+        "status": "merged",
+        "conflicted": false,
+        "resolutions": []
+      },
+      {
+        "name": "launcher-match-loops",
+        "oid": "70840f4ea97f3e9fee923bf53c252828fbb38b28",
         "status": "merged",
         "conflicted": false,
         "resolutions": []

@@ -90,6 +90,9 @@ summary = "Cut per-keystroke fzf matching work in the launcher (cache prepared n
 [[entry]]
 branch = "mine:dmenu-stream-search-throttle"
 
+[[entry]]
+branch = "mine:launcher-match-loops"
+
 [[exclude]]
 branch = "mine:tray-target-ordering"
 reason = "landed upstream as PR #4109 (squash-merged 2026-11-05); merge is empty on base 32d6c430"
