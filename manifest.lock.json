@@ -20,8 +20,8 @@
       "tray-click-actions": "251884becde7015f20c2f43c328532f013b2a179",
       "tray-key-fallback": "86d321074ec901d2e43d7b6b59bdf3942cd754e6",
       "tray-outline-low-contrast-icons": "78f68f794d796150bb813b2499686ea5ed7fa041",
-      "tray-placement": "ad2a84b8dd4c2638dea739d9d4213c96293aeb70",
-      "tray-priority-policy": "be109a3cd18b4846f9fe41fbc1f85867edfd68aa",
+      "tray-placement": "528ce26a95a0b07d9388d88d15a1479f66e53404",
+      "tray-priority-policy": "4882010152ff99cda7da5badd9794f911fe9e449",
       "tray-priority-settings": "02af161acdd23a385e01d4776720e00c95752a05",
       "workspace-urgent-window": "14cf35108a3a5331fc4e6168c63d6f249a8ed713",
       "workspaces-active-app-padding": "f57eb84eb1acbeeb3a1e7f1bc65a06e06a850263"
@@ -29,13 +29,13 @@
   },
   "build": {
     "protocol": 1,
-    "generated": "2026-11-09T05:13:07.122056395+00:00",
+    "generated": "2026-11-09T07:07:24.252386144+00:00",
     "base": "32d6c430f89f58122c8f4a6de5b38aaf5316b1d3",
-    "commit": "3289e54ad8dfe3fddca6f9628982cb0e7521d49b",
-    "pre_provenance_commit": "3289e54ad8dfe3fddca6f9628982cb0e7521d49b",
-    "tree": "924923ac8b49b6735391db7a03bf3d005be430fd",
-    "built_tree": "924923ac8b49b6735391db7a03bf3d005be430fd",
-    "previous_tree": "63cc794438c50937092f02a230c4676afb80b0bc",
+    "commit": "3cfb99020e1ef45c8123e045b9a6cc70585e14ac",
+    "pre_provenance_commit": "3cfb99020e1ef45c8123e045b9a6cc70585e14ac",
+    "tree": "8bb636bb6af8defc1e11c730c86962be96f56b2b",
+    "built_tree": "8bb636bb6af8defc1e11c730c86962be96f56b2b",
+    "previous_tree": "924923ac8b49b6735391db7a03bf3d005be430fd",
     "tree_changed": true,
     "conflicts": 6,
     "manifest_entries": [
@@ -61,7 +61,7 @@
         "name": "tray-priority-policy",
         "kind": "branch",
         "source": "mine:tray-priority-policy",
-        "pin": "be109a3cd18b4846f9fe41fbc1f85867edfd68aa"
+        "pin": "4882010152ff99cda7da5badd9794f911fe9e449"
       },
       {
         "name": "tray-click-actions",
@@ -135,7 +135,7 @@
         "name": "tray-placement",
         "kind": "branch",
         "source": "mine:tray-placement",
-        "pin": "ad2a84b8dd4c2638dea739d9d4213c96293aeb70"
+        "pin": "528ce26a95a0b07d9388d88d15a1479f66e53404"
       },
       {
         "name": "dmenu-large-list-perf",
@@ -198,7 +198,7 @@
       },
       {
         "name": "tray-priority-policy",
-        "oid": "be109a3cd18b4846f9fe41fbc1f85867edfd68aa",
+        "oid": "4882010152ff99cda7da5badd9794f911fe9e449",
         "status": "merged",
         "conflicted": false,
         "resolutions": []
@@ -293,7 +293,7 @@
       },
       {
         "name": "tray-placement",
-        "oid": "ad2a84b8dd4c2638dea739d9d4213c96293aeb70",
+        "oid": "528ce26a95a0b07d9388d88d15a1479f66e53404",
         "status": "merged",
         "conflicted": true,
         "resolutions": [
