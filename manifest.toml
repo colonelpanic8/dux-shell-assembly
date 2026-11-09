@@ -97,6 +97,10 @@ branch = "mine:launcher-match-loops"
 branch = "mine:minimized-windows-widget"
 summary = "Minimized windows bar/dock widget (stacked on hyprland-minimized-bucket); hidden when none are minimized"
 
+[[entry]]
+branch = "mine:dock-edge-slots"
+summary = "Several docks per screen edge in separate alignment slots (stacked on dock-peek-tray)"
+
 [[exclude]]
 branch = "mine:tray-target-ordering"
 reason = "landed upstream as PR #4109 (squash-merged 2026-11-05); merge is empty on base 32d6c430"
