@@ -93,6 +93,10 @@ branch = "mine:dmenu-stream-search-throttle"
 [[entry]]
 branch = "mine:launcher-match-loops"
 
+[[entry]]
+branch = "mine:minimized-windows-widget"
+summary = "Minimized windows bar/dock widget (stacked on hyprland-minimized-bucket); hidden when none are minimized"
+
 [[exclude]]
 branch = "mine:tray-target-ordering"
 reason = "landed upstream as PR #4109 (squash-merged 2026-11-05); merge is empty on base 32d6c430"

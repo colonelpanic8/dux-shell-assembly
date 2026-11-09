@@ -15,6 +15,7 @@
       "launcher-match-loops": "70840f4ea97f3e9fee923bf53c252828fbb38b28",
       "launcher-match-perf": "9d16664d1dec68833e94035615b0a5d86e21e4bf",
       "media-lyrics-beside-track": "0b465faeac4bddca53e2c7e4cfd8e2b866e109e4",
+      "minimized-windows-widget": "8365942d4ddc44f5590780171d8cf6be55c744c6",
       "tray-click-actions": "251884becde7015f20c2f43c328532f013b2a179",
       "tray-key-fallback": "86d321074ec901d2e43d7b6b59bdf3942cd754e6",
       "tray-outline-low-contrast-icons": "78f68f794d796150bb813b2499686ea5ed7fa041",
@@ -27,13 +28,13 @@
   },
   "build": {
     "protocol": 1,
-    "generated": "2026-11-09T03:00:38.121630364+00:00",
+    "generated": "2026-11-09T04:03:32.991527368+00:00",
     "base": "32d6c430f89f58122c8f4a6de5b38aaf5316b1d3",
-    "commit": "e1fd2919605cc0d946ecbf38128955876dc6792b",
-    "pre_provenance_commit": "e1fd2919605cc0d946ecbf38128955876dc6792b",
-    "tree": "0701c485ebd67d2ec1842e9393a110baba42a295",
-    "built_tree": "0701c485ebd67d2ec1842e9393a110baba42a295",
-    "previous_tree": "4166eb65a2b44f1dd1817126ba3a710f6c29e301",
+    "commit": "05ab72db76226644890edc427bffc5c7057ade02",
+    "pre_provenance_commit": "05ab72db76226644890edc427bffc5c7057ade02",
+    "tree": "efa8a0adffe6a7edef9812a3999bc4f46d3f5535",
+    "built_tree": "efa8a0adffe6a7edef9812a3999bc4f46d3f5535",
+    "previous_tree": "0701c485ebd67d2ec1842e9393a110baba42a295",
     "tree_changed": true,
     "conflicts": 0,
     "manifest_entries": [
@@ -158,6 +159,12 @@
         "kind": "branch",
         "source": "mine:launcher-match-loops",
         "pin": "70840f4ea97f3e9fee923bf53c252828fbb38b28"
+      },
+      {
+        "name": "minimized-windows-widget",
+        "kind": "branch",
+        "source": "mine:minimized-windows-widget",
+        "pin": "8365942d4ddc44f5590780171d8cf6be55c744c6"
       }
     ],
     "results": [
@@ -313,6 +320,13 @@
       {
         "name": "launcher-match-loops",
         "oid": "70840f4ea97f3e9fee923bf53c252828fbb38b28",
+        "status": "merged",
+        "conflicted": false,
+        "resolutions": []
+      },
+      {
+        "name": "minimized-windows-widget",
+        "oid": "8365942d4ddc44f5590780171d8cf6be55c744c6",
         "status": "merged",
         "conflicted": false,
         "resolutions": []
