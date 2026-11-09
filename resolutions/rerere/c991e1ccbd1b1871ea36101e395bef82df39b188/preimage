@@ -260,7 +260,7 @@ Singleton {
     property var trayExpandOnHover: null
     property var trayPinnedItems: []
 =======
-    property var windowBucketPlacements: ({})
+    property string windowBucketPlacement: ""
 >>>>>>>
     property var recentColors: []
     property bool showThirdPartyPlugins: false

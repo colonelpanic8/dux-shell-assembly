@@ -163,6 +163,11 @@ var LOCAL_SPEC = {
         def: []
     },
 <<<<<<<
+    // "" until the buckets are first moved, so the configured default applies.
+    windowBucketPlacement: {
+        def: ""
+    },
+=======
     // "" until the tray is first moved, so the configured default applies.
     systemTrayPlacement: {
         def: ""
@@ -176,10 +181,6 @@ var LOCAL_SPEC = {
     },
     trayPinnedItems: {
         def: []
-    },
-=======
-    windowBucketPlacements: {
-        def: {}
     },
 >>>>>>>
     recentColors: {

@@ -463,7 +463,7 @@ Singleton {
     property bool trayCollapseDefault: Spec.SPEC.trayCollapseDefault.def
     property bool trayExpandOnHoverDefault: Spec.SPEC.trayExpandOnHoverDefault.def
 =======
-    property var windowBucketPlacements: Spec.SPEC.windowBucketPlacements.def
+    property string windowBucketPlacement: Spec.SPEC.windowBucketPlacement.def
 >>>>>>>
 
     property int controlCenterColumns: Spec.SPEC.controlCenterColumns.def

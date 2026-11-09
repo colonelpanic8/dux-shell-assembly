@@ -9,27 +9,27 @@ recorded = "2026-11-06T06:33:57.318049026+00:00"
 
 [[resolution]]
 entry = "minimized-windows-widget"
-hash = "0751b879e385c1c2e278f48771a186183b34a78f"
+hash = "2fac38ef6217cb2b92892a69c4a3414bf3d9069b"
 paths = ["quickshell/Common/SettingsData.qml"]
-recorded = "2026-11-09T04:33:02.997739799+00:00"
+recorded = "2026-11-09T04:59:54.431003039+00:00"
 
 [[resolution]]
 entry = "minimized-windows-widget"
-hash = "139b90c13da98e5954eafaf1a1800cf0c390a7ab"
-paths = ["quickshell/Common/SessionData.qml"]
-recorded = "2026-11-09T04:33:02.997741963+00:00"
-
-[[resolution]]
-entry = "minimized-windows-widget"
-hash = "9d70a00465b767d9a4892f326222b14e4f55e680"
-paths = ["quickshell/Common/settings/SettingsSpec.js"]
-recorded = "2026-11-09T04:33:02.997742374+00:00"
-
-[[resolution]]
-entry = "minimized-windows-widget"
-hash = "cdea4df6334b985dedad07580c81337780479676"
+hash = "64386c9873887c6c1f206725b0355814463ca328"
 paths = ["quickshell/Common/settings/SessionSpec.js"]
-recorded = "2026-11-09T04:33:02.997742725+00:00"
+recorded = "2026-11-09T04:59:54.431004933+00:00"
+
+[[resolution]]
+entry = "minimized-windows-widget"
+hash = "c13252aa48d110202b73f9e2cddf9ec44f2007ea"
+paths = ["quickshell/Common/settings/SettingsSpec.js"]
+recorded = "2026-11-09T04:59:54.431005214+00:00"
+
+[[resolution]]
+entry = "minimized-windows-widget"
+hash = "c991e1ccbd1b1871ea36101e395bef82df39b188"
+paths = ["quickshell/Common/SessionData.qml"]
+recorded = "2026-11-09T04:59:54.431005514+00:00"
 
 [[resolution]]
 entry = "tray-click-actions"

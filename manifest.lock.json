@@ -16,7 +16,7 @@
       "launcher-match-loops": "70840f4ea97f3e9fee923bf53c252828fbb38b28",
       "launcher-match-perf": "9d16664d1dec68833e94035615b0a5d86e21e4bf",
       "media-lyrics-beside-track": "0b465faeac4bddca53e2c7e4cfd8e2b866e109e4",
-      "minimized-windows-widget": "70493a78387fa80873e252e295e1abb846f44392",
+      "minimized-windows-widget": "536f5b10a0704188c574c56894ee6114582de1c7",
       "tray-click-actions": "251884becde7015f20c2f43c328532f013b2a179",
       "tray-key-fallback": "86d321074ec901d2e43d7b6b59bdf3942cd754e6",
       "tray-outline-low-contrast-icons": "78f68f794d796150bb813b2499686ea5ed7fa041",
@@ -29,13 +29,13 @@
   },
   "build": {
     "protocol": 1,
-    "generated": "2026-11-09T04:33:03.046060045+00:00",
+    "generated": "2026-11-09T04:59:54.474573780+00:00",
     "base": "32d6c430f89f58122c8f4a6de5b38aaf5316b1d3",
-    "commit": "bd4370bbc7334f2081cc3ebcd9740bc6f582c041",
-    "pre_provenance_commit": "bd4370bbc7334f2081cc3ebcd9740bc6f582c041",
-    "tree": "5fe1d34d6508348a4f1ab838d3e3cea9c43c0654",
-    "built_tree": "5fe1d34d6508348a4f1ab838d3e3cea9c43c0654",
-    "previous_tree": "ddaa874fee054bd5304dfcc34fca2c1f31ff5421",
+    "commit": "6cf948cca3d6d2b958bed80b01320cac140f5ddc",
+    "pre_provenance_commit": "6cf948cca3d6d2b958bed80b01320cac140f5ddc",
+    "tree": "63cc794438c50937092f02a230c4676afb80b0bc",
+    "built_tree": "63cc794438c50937092f02a230c4676afb80b0bc",
+    "previous_tree": "5fe1d34d6508348a4f1ab838d3e3cea9c43c0654",
     "tree_changed": true,
     "conflicts": 6,
     "manifest_entries": [
@@ -165,7 +165,7 @@
         "name": "minimized-windows-widget",
         "kind": "branch",
         "source": "mine:minimized-windows-widget",
-        "pin": "70493a78387fa80873e252e295e1abb846f44392"
+        "pin": "536f5b10a0704188c574c56894ee6114582de1c7"
       },
       {
         "name": "dock-edge-slots",
@@ -333,14 +333,14 @@
       },
       {
         "name": "minimized-windows-widget",
-        "oid": "70493a78387fa80873e252e295e1abb846f44392",
+        "oid": "536f5b10a0704188c574c56894ee6114582de1c7",
         "status": "merged",
         "conflicted": true,
         "resolutions": [
-          "0751b879e385c1c2e278f48771a186183b34a78f",
-          "139b90c13da98e5954eafaf1a1800cf0c390a7ab",
-          "9d70a00465b767d9a4892f326222b14e4f55e680",
-          "cdea4df6334b985dedad07580c81337780479676"
+          "2fac38ef6217cb2b92892a69c4a3414bf3d9069b",
+          "64386c9873887c6c1f206725b0355814463ca328",
+          "c13252aa48d110202b73f9e2cddf9ec44f2007ea",
+          "c991e1ccbd1b1871ea36101e395bef82df39b188"
         ]
       },
       {
