@@ -10,7 +10,7 @@
       "disk-usage-percent-free": "9bb32173e6e8afb7e3fa8b73c4d96afa5fe127c6",
       "dmenu-large-list-perf": "0a84c90024517237ebe4d6516f7b9507c9712889",
       "dmenu-stream-search-throttle": "95e4ffb974dfff9eb48e5a66180127be5342b9c9",
-      "dock-edge-slots": "846dfd0e46f70b57795506ab90c431c5705c3af2",
+      "dock-edge-slots": "83cb8fbe5d2f06834a41de845d1459f0ba2aebb5",
       "dock-peek-tray": "4e5b2e0caa03b257ddc3e5b190bc7977b6ef175f",
       "hyprland-minimized-bucket": "19c36821b9fa1754db773aa6a76be49dd9caedf2",
       "launcher-match-loops": "70840f4ea97f3e9fee923bf53c252828fbb38b28",
@@ -29,15 +29,15 @@
   },
   "build": {
     "protocol": 1,
-    "generated": "2026-11-09T04:13:09.643073184+00:00",
+    "generated": "2026-11-09T04:18:28.126386698+00:00",
     "base": "32d6c430f89f58122c8f4a6de5b38aaf5316b1d3",
-    "commit": "5223773978c21ae4d12e115201572735d76d1127",
-    "pre_provenance_commit": "5223773978c21ae4d12e115201572735d76d1127",
-    "tree": "093da4a69db5f71783f736336ea73c37cf35e738",
-    "built_tree": "093da4a69db5f71783f736336ea73c37cf35e738",
-    "previous_tree": "efa8a0adffe6a7edef9812a3999bc4f46d3f5535",
+    "commit": "e410d577d0c64a436cc6cad030ccf29d08925568",
+    "pre_provenance_commit": "e410d577d0c64a436cc6cad030ccf29d08925568",
+    "tree": "ddaa874fee054bd5304dfcc34fca2c1f31ff5421",
+    "built_tree": "ddaa874fee054bd5304dfcc34fca2c1f31ff5421",
+    "previous_tree": "093da4a69db5f71783f736336ea73c37cf35e738",
     "tree_changed": true,
-    "conflicts": 0,
+    "conflicts": 5,
     "manifest_entries": [
       {
         "name": "tray-outline-low-contrast-icons",
@@ -171,7 +171,7 @@
         "name": "dock-edge-slots",
         "kind": "branch",
         "source": "mine:dock-edge-slots",
-        "pin": "846dfd0e46f70b57795506ab90c431c5705c3af2"
+        "pin": "83cb8fbe5d2f06834a41de845d1459f0ba2aebb5"
       }
     ],
     "results": [
@@ -340,7 +340,7 @@
       },
       {
         "name": "dock-edge-slots",
-        "oid": "846dfd0e46f70b57795506ab90c431c5705c3af2",
+        "oid": "83cb8fbe5d2f06834a41de845d1459f0ba2aebb5",
         "status": "merged",
         "conflicted": false,
         "resolutions": []
