@@ -1,8 +1,8 @@
 diff --git a/quickshell/translations/settings_search_index.json b/quickshell/translations/settings_search_index.json
-index 14a611c96..853ddbe8c 100644
+index 9a18680df..af4496eb5 100644
 --- a/quickshell/translations/settings_search_index.json
 +++ b/quickshell/translations/settings_search_index.json
-@@ -10943,7 +10943,7 @@
+@@ -12232,7 +12232,7 @@
      "optionFile": "IslandOptions.qml"
    },
    {

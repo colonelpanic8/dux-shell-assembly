@@ -1,41 +1,37 @@
 {
   "version": 1,
   "pins": {
-    "base": "32d6c430f89f58122c8f4a6de5b38aaf5316b1d3",
+    "base": "6eb4f4a4dc8d359160848aba420322cbd169227e",
     "entries": {
-      "bar-idle-countdown": "1db12cd12494dcc4c7ad7800f09acf1274cba336",
+      "bar-idle-countdown": "32e3bfbedf5d787c8f80b89a22764cd6da4703e9",
       "bar-network-ssid": "eae56a884ad98296f1d89be57d4d7a7859ed35b5",
-      "bar-size-units": "940a2388b8d65c797be3437eb6ce38c898ceb9fc",
+      "bar-size-units": "917d8e201a9181aa519d06668965946b15416e5a",
       "calendar-task-markers": "f26297714b6045d8df9e72b760378d519d7b126e",
       "disk-usage-percent-free": "9bb32173e6e8afb7e3fa8b73c4d96afa5fe127c6",
-      "dmenu-large-list-perf": "0a84c90024517237ebe4d6516f7b9507c9712889",
-      "dmenu-stream-search-throttle": "95e4ffb974dfff9eb48e5a66180127be5342b9c9",
-      "dock-edge-slots": "83cb8fbe5d2f06834a41de845d1459f0ba2aebb5",
-      "dock-peek-tray": "4e5b2e0caa03b257ddc3e5b190bc7977b6ef175f",
+      "dock-edge-slots": "4703ae51d8159d3dcac95172c3bda8532cf56f69",
+      "dock-peek-tray": "ba578f03f756f3b0e3802603038737ef3b422b17",
       "hyprland-minimized-bucket": "19c36821b9fa1754db773aa6a76be49dd9caedf2",
-      "launcher-match-loops": "70840f4ea97f3e9fee923bf53c252828fbb38b28",
-      "launcher-match-perf": "9d16664d1dec68833e94035615b0a5d86e21e4bf",
-      "media-lyrics-beside-track": "0b465faeac4bddca53e2c7e4cfd8e2b866e109e4",
+      "media-lyrics-beside-track": "9e2ce5ffa536f439e6b166de6c4ca318c609cfec",
       "minimized-windows-widget": "67ce3c4eb815102752e55b20d21f19de34f3c54d",
-      "tray-click-actions": "251884becde7015f20c2f43c328532f013b2a179",
+      "tray-click-actions": "e26a8083dde216527e2f5c0acf44d179e5c64d7e",
       "tray-key-fallback": "86d321074ec901d2e43d7b6b59bdf3942cd754e6",
       "tray-outline-low-contrast-icons": "78f68f794d796150bb813b2499686ea5ed7fa041",
-      "tray-placement": "528ce26a95a0b07d9388d88d15a1479f66e53404",
-      "tray-priority-policy": "4882010152ff99cda7da5badd9794f911fe9e449",
-      "tray-priority-settings": "02af161acdd23a385e01d4776720e00c95752a05",
+      "tray-placement": "e4f7b66be384c777e7f68a575c23c9ae1d9ee466",
+      "tray-priority-policy": "cd0064e1ec957cb23c279c104c37b1ba19683e93",
+      "tray-priority-settings": "43196c908247ea07e2e5d3ded9efffb9a1034727",
       "workspace-urgent-window": "14cf35108a3a5331fc4e6168c63d6f249a8ed713",
       "workspaces-active-app-padding": "f57eb84eb1acbeeb3a1e7f1bc65a06e06a850263"
     }
   },
   "build": {
     "protocol": 1,
-    "generated": "2026-11-09T21:50:11.587757465+00:00",
-    "base": "32d6c430f89f58122c8f4a6de5b38aaf5316b1d3",
-    "commit": "4e822caaff3bff126e488970235ba65a68723f62",
-    "pre_provenance_commit": "4e822caaff3bff126e488970235ba65a68723f62",
-    "tree": "d19000c032fd59501f98f3e21df70ca482a4fe9e",
-    "built_tree": "d19000c032fd59501f98f3e21df70ca482a4fe9e",
-    "previous_tree": "8bb636bb6af8defc1e11c730c86962be96f56b2b",
+    "generated": "2026-11-19T20:43:38.981303251+00:00",
+    "base": "6eb4f4a4dc8d359160848aba420322cbd169227e",
+    "commit": "03a2a0866aa373678c4abf4263a9f6db146ce714",
+    "pre_provenance_commit": "03a2a0866aa373678c4abf4263a9f6db146ce714",
+    "tree": "75691820a2e26b91dc0e5abe3fab8fbd392056dc",
+    "built_tree": "75691820a2e26b91dc0e5abe3fab8fbd392056dc",
+    "previous_tree": "d19000c032fd59501f98f3e21df70ca482a4fe9e",
     "tree_changed": true,
     "conflicts": 6,
     "manifest_entries": [
@@ -61,26 +57,26 @@
         "name": "tray-priority-policy",
         "kind": "branch",
         "source": "mine:tray-priority-policy",
-        "pin": "4882010152ff99cda7da5badd9794f911fe9e449"
+        "pin": "cd0064e1ec957cb23c279c104c37b1ba19683e93"
       },
       {
         "name": "tray-click-actions",
         "kind": "branch",
         "source": "mine:tray-click-actions",
-        "pin": "251884becde7015f20c2f43c328532f013b2a179"
+        "pin": "e26a8083dde216527e2f5c0acf44d179e5c64d7e"
       },
       {
         "name": "bar-size-units",
         "kind": "branch",
         "source": "mine:bar-size-units",
-        "pin": "940a2388b8d65c797be3437eb6ce38c898ceb9fc"
+        "pin": "917d8e201a9181aa519d06668965946b15416e5a"
       },
       {
         "name": "tray-priority-settings",
         "kind": "branch",
         "source": "mine:tray-priority-settings",
-        "pin": "02af161acdd23a385e01d4776720e00c95752a05",
-        "fixup": "0b365c6bee374f9d8c994d9649653d6f71244e7d"
+        "pin": "43196c908247ea07e2e5d3ded9efffb9a1034727",
+        "fixup": "ae59979649145b903b219d26a81f50191bbe377e"
       },
       {
         "name": "bar-network-ssid",
@@ -104,7 +100,7 @@
         "name": "bar-idle-countdown",
         "kind": "branch",
         "source": "mine:bar-idle-countdown",
-        "pin": "1db12cd12494dcc4c7ad7800f09acf1274cba336"
+        "pin": "32e3bfbedf5d787c8f80b89a22764cd6da4703e9"
       },
       {
         "name": "workspace-urgent-window",
@@ -116,13 +112,13 @@
         "name": "media-lyrics-beside-track",
         "kind": "branch",
         "source": "mine:media-lyrics-beside-track",
-        "pin": "0b465faeac4bddca53e2c7e4cfd8e2b866e109e4"
+        "pin": "9e2ce5ffa536f439e6b166de6c4ca318c609cfec"
       },
       {
         "name": "dock-peek-tray",
         "kind": "branch",
         "source": "mine:dock-peek-tray",
-        "pin": "4e5b2e0caa03b257ddc3e5b190bc7977b6ef175f",
+        "pin": "ba578f03f756f3b0e3802603038737ef3b422b17",
         "fixup": "2269162fd1975e9c17fa16f632afedf9f523a6a3"
       },
       {
@@ -135,31 +131,7 @@
         "name": "tray-placement",
         "kind": "branch",
         "source": "mine:tray-placement",
-        "pin": "528ce26a95a0b07d9388d88d15a1479f66e53404"
-      },
-      {
-        "name": "dmenu-large-list-perf",
-        "kind": "branch",
-        "source": "mine:dmenu-large-list-perf",
-        "pin": "0a84c90024517237ebe4d6516f7b9507c9712889"
-      },
-      {
-        "name": "launcher-match-perf",
-        "kind": "branch",
-        "source": "mine:launcher-match-perf",
-        "pin": "9d16664d1dec68833e94035615b0a5d86e21e4bf"
-      },
-      {
-        "name": "dmenu-stream-search-throttle",
-        "kind": "branch",
-        "source": "mine:dmenu-stream-search-throttle",
-        "pin": "95e4ffb974dfff9eb48e5a66180127be5342b9c9"
-      },
-      {
-        "name": "launcher-match-loops",
-        "kind": "branch",
-        "source": "mine:launcher-match-loops",
-        "pin": "70840f4ea97f3e9fee923bf53c252828fbb38b28"
+        "pin": "e4f7b66be384c777e7f68a575c23c9ae1d9ee466"
       },
       {
         "name": "minimized-windows-widget",
@@ -171,7 +143,7 @@
         "name": "dock-edge-slots",
         "kind": "branch",
         "source": "mine:dock-edge-slots",
-        "pin": "83cb8fbe5d2f06834a41de845d1459f0ba2aebb5"
+        "pin": "4703ae51d8159d3dcac95172c3bda8532cf56f69"
       }
     ],
     "results": [
@@ -198,14 +170,14 @@
       },
       {
         "name": "tray-priority-policy",
-        "oid": "4882010152ff99cda7da5badd9794f911fe9e449",
+        "oid": "cd0064e1ec957cb23c279c104c37b1ba19683e93",
         "status": "merged",
         "conflicted": false,
         "resolutions": []
       },
       {
         "name": "tray-click-actions",
-        "oid": "251884becde7015f20c2f43c328532f013b2a179",
+        "oid": "e26a8083dde216527e2f5c0acf44d179e5c64d7e",
         "status": "merged",
         "conflicted": true,
         "resolutions": [
@@ -215,20 +187,20 @@
       },
       {
         "name": "bar-size-units",
-        "oid": "940a2388b8d65c797be3437eb6ce38c898ceb9fc",
+        "oid": "917d8e201a9181aa519d06668965946b15416e5a",
         "status": "merged",
         "conflicted": false,
         "resolutions": []
       },
       {
         "name": "tray-priority-settings",
-        "oid": "02af161acdd23a385e01d4776720e00c95752a05",
+        "oid": "43196c908247ea07e2e5d3ded9efffb9a1034727",
         "status": "merged",
         "conflicted": true,
         "resolutions": [
           "54e30f9af003e3229d8967d701a3644353745427"
         ],
-        "fixup": "0b365c6bee374f9d8c994d9649653d6f71244e7d"
+        "fixup": "ae59979649145b903b219d26a81f50191bbe377e"
       },
       {
         "name": "bar-network-ssid",
@@ -253,7 +225,7 @@
       },
       {
         "name": "bar-idle-countdown",
-        "oid": "1db12cd12494dcc4c7ad7800f09acf1274cba336",
+        "oid": "32e3bfbedf5d787c8f80b89a22764cd6da4703e9",
         "status": "merged",
         "conflicted": false,
         "resolutions": []
@@ -267,14 +239,14 @@
       },
       {
         "name": "media-lyrics-beside-track",
-        "oid": "0b465faeac4bddca53e2c7e4cfd8e2b866e109e4",
+        "oid": "9e2ce5ffa536f439e6b166de6c4ca318c609cfec",
         "status": "merged",
         "conflicted": false,
         "resolutions": []
       },
       {
         "name": "dock-peek-tray",
-        "oid": "4e5b2e0caa03b257ddc3e5b190bc7977b6ef175f",
+        "oid": "ba578f03f756f3b0e3802603038737ef3b422b17",
         "status": "merged",
         "conflicted": true,
         "resolutions": [
@@ -293,7 +265,7 @@
       },
       {
         "name": "tray-placement",
-        "oid": "528ce26a95a0b07d9388d88d15a1479f66e53404",
+        "oid": "e4f7b66be384c777e7f68a575c23c9ae1d9ee466",
         "status": "merged",
         "conflicted": true,
         "resolutions": [
@@ -302,34 +274,6 @@
           "d4b985ee5ff2bb94acfd25d96271dc796df35f50",
           "ef865b82c6050fa40c6ccb8f6b6b378a26daea99"
         ]
-      },
-      {
-        "name": "dmenu-large-list-perf",
-        "oid": "0a84c90024517237ebe4d6516f7b9507c9712889",
-        "status": "merged",
-        "conflicted": false,
-        "resolutions": []
-      },
-      {
-        "name": "launcher-match-perf",
-        "oid": "9d16664d1dec68833e94035615b0a5d86e21e4bf",
-        "status": "merged",
-        "conflicted": false,
-        "resolutions": []
-      },
-      {
-        "name": "dmenu-stream-search-throttle",
-        "oid": "95e4ffb974dfff9eb48e5a66180127be5342b9c9",
-        "status": "merged",
-        "conflicted": false,
-        "resolutions": []
-      },
-      {
-        "name": "launcher-match-loops",
-        "oid": "70840f4ea97f3e9fee923bf53c252828fbb38b28",
-        "status": "merged",
-        "conflicted": false,
-        "resolutions": []
       },
       {
         "name": "minimized-windows-widget",
@@ -345,7 +289,7 @@
       },
       {
         "name": "dock-edge-slots",
-        "oid": "83cb8fbe5d2f06834a41de845d1459f0ba2aebb5",
+        "oid": "4703ae51d8159d3dcac95172c3bda8532cf56f69",
         "status": "merged",
         "conflicted": false,
         "resolutions": []

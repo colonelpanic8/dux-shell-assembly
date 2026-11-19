@@ -78,22 +78,6 @@ branch = "mine:tray-key-fallback"
 branch = "mine:tray-placement"
 
 [[entry]]
-branch = "mine:dmenu-large-list-perf"
-pr = 4214
-summary = "Keep dmenu typing responsive with thousands of items (no per-keystroke ScriptModel diff)"
-
-[[entry]]
-branch = "mine:launcher-match-perf"
-pr = 4215
-summary = "Cut per-keystroke fzf matching work in the launcher (cache prepared names, cheap rejection before fzf)"
-
-[[entry]]
-branch = "mine:dmenu-stream-search-throttle"
-
-[[entry]]
-branch = "mine:launcher-match-loops"
-
-[[entry]]
 branch = "mine:minimized-windows-widget"
 summary = "Minimized windows bar/dock widget (stacked on hyprland-minimized-bucket); hidden when none are minimized"
 
@@ -104,6 +88,22 @@ summary = "Several docks per screen edge in separate alignment slots (stacked on
 [[exclude]]
 branch = "mine:tray-target-ordering"
 reason = "landed upstream as PR #4109 (squash-merged 2026-11-05); merge is empty on base 32d6c430"
+
+[[exclude]]
+branch = "mine:dmenu-stream-search-throttle"
+reason = "landed upstream as PR #4216 (squash-merged 2026-11-09, e919c08f); pruned on base 6eb4f4a4"
+
+[[exclude]]
+branch = "mine:dmenu-large-list-perf"
+reason = "landed upstream as PR #4214 (squash-merged 2026-11-09, a9f6d61b); same patch as the pinned head 0a84c900"
+
+[[exclude]]
+branch = "mine:launcher-match-perf"
+reason = "landed upstream as PR #4215 (squash-merged 2026-11-09, b7352fcb); same patch as the pinned head 70840f4e"
+
+[[exclude]]
+branch = "mine:launcher-match-loops"
+reason = "same head (70840f4e) as launcher-match-perf, which landed upstream as PR #4215 (b7352fcb)"
 
 # Entries merge in order onto the base. Three kinds:
 #
