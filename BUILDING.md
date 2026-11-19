@@ -14,6 +14,7 @@ and invariants.
 | Flake input | `dux-shell` in `/srv/dotfiles/nixos/flake.nix` |
 | NixOS module | `/srv/dotfiles/nixos/dux-shell.nix` |
 | Shared QML library override | `colonelpanic8/dux-qml-common` branch `month-grid-task-markers` (checkout `~/projects/dux-qml-common`), set as `dux-shell.inputs.dank-qml-common` in the dotfiles flake for `calendar-task-markers` |
+| Embedded Quickshell runtime override | `colonelpanic8/dux-qt-base` branch `assembled`, built by the stack in `~/projects/dux-qt-base-assembly`, set as `dux-shell.inputs.dux-qt-base` in the dotfiles flake; the tray topics need its `watcherAddress` and `contextMenu()` |
 
 The fork's old `dotfiles` branch is retired; do not commit to it.
 
