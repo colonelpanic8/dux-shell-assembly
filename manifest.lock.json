@@ -3,20 +3,20 @@
   "pins": {
     "base": "6eb4f4a4dc8d359160848aba420322cbd169227e",
     "entries": {
-      "bar-idle-countdown": "32e3bfbedf5d787c8f80b89a22764cd6da4703e9",
+      "bar-idle-countdown": "b604e959d5e23686d0c445f5eb178fe94738d086",
       "bar-network-ssid": "eae56a884ad98296f1d89be57d4d7a7859ed35b5",
       "bar-size-units": "917d8e201a9181aa519d06668965946b15416e5a",
       "calendar-task-markers": "f26297714b6045d8df9e72b760378d519d7b126e",
       "disk-usage-percent-free": "9bb32173e6e8afb7e3fa8b73c4d96afa5fe127c6",
       "dock-edge-slots": "4703ae51d8159d3dcac95172c3bda8532cf56f69",
       "dock-peek-tray": "ba578f03f756f3b0e3802603038737ef3b422b17",
-      "hyprland-minimized-bucket": "19c36821b9fa1754db773aa6a76be49dd9caedf2",
+      "hyprland-minimized-bucket": "e27ebed1127860f3767014cd065e6b6d2f319240",
       "media-lyrics-beside-track": "9e2ce5ffa536f439e6b166de6c4ca318c609cfec",
-      "minimized-windows-widget": "67ce3c4eb815102752e55b20d21f19de34f3c54d",
-      "tray-click-actions": "e26a8083dde216527e2f5c0acf44d179e5c64d7e",
+      "minimized-windows-widget": "3ca614f14dc4e7a2bbb0da2169a43b438fc34bd0",
+      "tray-click-actions": "058b02f449b491aa63e3a7ab6e63ac44809573b2",
       "tray-key-fallback": "86d321074ec901d2e43d7b6b59bdf3942cd754e6",
       "tray-outline-low-contrast-icons": "78f68f794d796150bb813b2499686ea5ed7fa041",
-      "tray-placement": "e4f7b66be384c777e7f68a575c23c9ae1d9ee466",
+      "tray-placement": "55cfd288301a956c0e429dad636bb0327b0c3793",
       "tray-priority-policy": "cd0064e1ec957cb23c279c104c37b1ba19683e93",
       "tray-priority-settings": "43196c908247ea07e2e5d3ded9efffb9a1034727",
       "workspace-urgent-window": "14cf35108a3a5331fc4e6168c63d6f249a8ed713",
@@ -25,13 +25,13 @@
   },
   "build": {
     "protocol": 1,
-    "generated": "2026-11-19T20:43:38.981303251+00:00",
+    "generated": "2026-11-19T21:02:07.682868732+00:00",
     "base": "6eb4f4a4dc8d359160848aba420322cbd169227e",
-    "commit": "03a2a0866aa373678c4abf4263a9f6db146ce714",
-    "pre_provenance_commit": "03a2a0866aa373678c4abf4263a9f6db146ce714",
-    "tree": "75691820a2e26b91dc0e5abe3fab8fbd392056dc",
-    "built_tree": "75691820a2e26b91dc0e5abe3fab8fbd392056dc",
-    "previous_tree": "d19000c032fd59501f98f3e21df70ca482a4fe9e",
+    "commit": "9b9da5a791f0f6ec881ea71405b879e53859df0a",
+    "pre_provenance_commit": "9b9da5a791f0f6ec881ea71405b879e53859df0a",
+    "tree": "70086fa0264ee5c2cce2fab823be676180b79282",
+    "built_tree": "70086fa0264ee5c2cce2fab823be676180b79282",
+    "previous_tree": "75691820a2e26b91dc0e5abe3fab8fbd392056dc",
     "tree_changed": true,
     "conflicts": 6,
     "manifest_entries": [
@@ -51,7 +51,7 @@
         "name": "hyprland-minimized-bucket",
         "kind": "branch",
         "source": "mine:hyprland-minimized-bucket",
-        "pin": "19c36821b9fa1754db773aa6a76be49dd9caedf2"
+        "pin": "e27ebed1127860f3767014cd065e6b6d2f319240"
       },
       {
         "name": "tray-priority-policy",
@@ -63,7 +63,7 @@
         "name": "tray-click-actions",
         "kind": "branch",
         "source": "mine:tray-click-actions",
-        "pin": "e26a8083dde216527e2f5c0acf44d179e5c64d7e"
+        "pin": "058b02f449b491aa63e3a7ab6e63ac44809573b2"
       },
       {
         "name": "bar-size-units",
@@ -100,7 +100,7 @@
         "name": "bar-idle-countdown",
         "kind": "branch",
         "source": "mine:bar-idle-countdown",
-        "pin": "32e3bfbedf5d787c8f80b89a22764cd6da4703e9"
+        "pin": "b604e959d5e23686d0c445f5eb178fe94738d086"
       },
       {
         "name": "workspace-urgent-window",
@@ -131,13 +131,13 @@
         "name": "tray-placement",
         "kind": "branch",
         "source": "mine:tray-placement",
-        "pin": "e4f7b66be384c777e7f68a575c23c9ae1d9ee466"
+        "pin": "55cfd288301a956c0e429dad636bb0327b0c3793"
       },
       {
         "name": "minimized-windows-widget",
         "kind": "branch",
         "source": "mine:minimized-windows-widget",
-        "pin": "67ce3c4eb815102752e55b20d21f19de34f3c54d"
+        "pin": "3ca614f14dc4e7a2bbb0da2169a43b438fc34bd0"
       },
       {
         "name": "dock-edge-slots",
@@ -163,7 +163,7 @@
       },
       {
         "name": "hyprland-minimized-bucket",
-        "oid": "19c36821b9fa1754db773aa6a76be49dd9caedf2",
+        "oid": "e27ebed1127860f3767014cd065e6b6d2f319240",
         "status": "merged",
         "conflicted": false,
         "resolutions": []
@@ -177,7 +177,7 @@
       },
       {
         "name": "tray-click-actions",
-        "oid": "e26a8083dde216527e2f5c0acf44d179e5c64d7e",
+        "oid": "058b02f449b491aa63e3a7ab6e63ac44809573b2",
         "status": "merged",
         "conflicted": true,
         "resolutions": [
@@ -225,7 +225,7 @@
       },
       {
         "name": "bar-idle-countdown",
-        "oid": "32e3bfbedf5d787c8f80b89a22764cd6da4703e9",
+        "oid": "b604e959d5e23686d0c445f5eb178fe94738d086",
         "status": "merged",
         "conflicted": false,
         "resolutions": []
@@ -265,23 +265,25 @@
       },
       {
         "name": "tray-placement",
-        "oid": "e4f7b66be384c777e7f68a575c23c9ae1d9ee466",
+        "oid": "55cfd288301a956c0e429dad636bb0327b0c3793",
         "status": "merged",
         "conflicted": true,
         "resolutions": [
           "7d3bd00fa0213240545769b913b5f51327d92688",
           "85ef8c551bf12a862014a204ea57644dfd6f7986",
+          "cd788cf74d58da8369d68cdb2ef77437a0e4831f",
           "d4b985ee5ff2bb94acfd25d96271dc796df35f50",
           "ef865b82c6050fa40c6ccb8f6b6b378a26daea99"
         ]
       },
       {
         "name": "minimized-windows-widget",
-        "oid": "67ce3c4eb815102752e55b20d21f19de34f3c54d",
+        "oid": "3ca614f14dc4e7a2bbb0da2169a43b438fc34bd0",
         "status": "merged",
         "conflicted": true,
         "resolutions": [
           "2fac38ef6217cb2b92892a69c4a3414bf3d9069b",
+          "4fb89b512f5749e2a2add78aaf72bf0b4ae496fb",
           "64386c9873887c6c1f206725b0355814463ca328",
           "c13252aa48d110202b73f9e2cddf9ec44f2007ea",
           "c991e1ccbd1b1871ea36101e395bef82df39b188"

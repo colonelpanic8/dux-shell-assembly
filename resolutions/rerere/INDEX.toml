@@ -15,6 +15,12 @@ recorded = "2026-11-09T04:59:54.431003039+00:00"
 
 [[resolution]]
 entry = "minimized-windows-widget"
+hash = "4fb89b512f5749e2a2add78aaf72bf0b4ae496fb"
+paths = ["quickshell/Common/settings/ConfigProfiles.js"]
+recorded = "2026-11-19T21:02:07.584605127+00:00"
+
+[[resolution]]
+entry = "minimized-windows-widget"
 hash = "64386c9873887c6c1f206725b0355814463ca328"
 paths = ["quickshell/Common/settings/SessionSpec.js"]
 recorded = "2026-11-09T04:59:54.431004933+00:00"
@@ -60,6 +66,12 @@ entry = "tray-placement"
 hash = "85ef8c551bf12a862014a204ea57644dfd6f7986"
 paths = ["quickshell/Modules/Settings/BarWidgetOptions/SystemTrayOptions.qml"]
 recorded = "2026-11-06T08:40:28.161330241+00:00"
+
+[[resolution]]
+entry = "tray-placement"
+hash = "cd788cf74d58da8369d68cdb2ef77437a0e4831f"
+paths = ["quickshell/Common/settings/ConfigProfiles.js"]
+recorded = "2026-11-19T21:02:03.617316098+00:00"
 
 [[resolution]]
 entry = "tray-placement"
